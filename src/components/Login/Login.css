@@ -1,0 +1,162 @@
+/* src/components/Login.css */
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+img {
+  pointer-events: none;
+}
+
+
+.log-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: row-reverse;
+    height: 96vh;
+  }
+  
+  .log-img {
+    width: 70%;
+    text-align: center;
+    float: right;
+  }
+  
+  .log-cod {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    background: #f0f0f0;
+    height: 100vh;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .log-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .log-cod form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+    box-sizing: border-box; /* Añadido para incluir el padding en el tamaño total */
+  }
+  
+  label {
+    display: flex;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .text-up {
+    font-size: 24px;
+  }
+  
+  .Text-Par {
+    font-size: 16px;
+  }
+  
+  .cont-card {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  .card-img>img {
+    width: 40px;
+  }
+  
+  .Log-text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .check {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .check-button {
+    top: 1px;
+    position: relative;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #72c2e9;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .submit,
+  button,
+  input[type="submit"],
+  input[type="text"],
+  input[type="password"] {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .submit {
+    background-color: #72c2e9;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  button {
+    background-color: #72c2e9;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
