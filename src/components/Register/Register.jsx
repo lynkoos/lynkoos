@@ -12,7 +12,7 @@ const Register = () => {
   const handleRegister = async () => {
     try {
       const { user, error } = await supabase.auth.signUp({
-        email: username,
+        email: username, // Use email as a username
         password: contrasena,
       });
   
@@ -20,27 +20,26 @@ const Register = () => {
         throw error;
       }
   
-      if (user && user.id) {
-        const { data: userData, error: profileError } = await supabase
-          .from('usuarios')
-          .upsert(
-            [{ id: user.id, nombre, apellido, username, foto_perfil: fotoPerfil }],
-            { onConflict: ['id'] }
-          );
+      // If the user is successfully registered, add additional data to the 'usuarios' table
+      const { data: userData, error: profileError } = await supabase
+        .from('usuarios')
+        .upsert(
+          [{ id: user.id, nombre, apellido, username, foto_perfil: fotoPerfil }],
+          { onConflict: ['id'] }
+        );
   
-        if (profileError) {
-          throw profileError;
-        }
-  
-        console.log('User registration successful:', user, userData);
-      } else {
-        console.error('User object is undefined or missing id property');
+      if (profileError) {
+        throw profileError;
       }
+  
+      // Optionally, you can redirect to the login page or any other page upon successful registration.
+      console.log('User registration successful:', user, userData);
     } catch (error) {
       console.error('Error during registration:', error.message);
     }
-  };  
+  };
   
+
   return (
     <div>
       <h2>Register</h2>
