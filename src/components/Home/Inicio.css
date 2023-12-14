@@ -1,0 +1,25 @@
+.display{
+    display: none;
+}
+
+.izdi{
+    background-color: red;
+    width: 80%;
+    height: 100vh;
+    float: left;
+}
+
+.derdi{
+    float: right;
+    background-color: blue;
+    width: 20%;
+    height: 100vh;
+}
+
+.di{
+    display: block;
+}
+
+.user-image{
+    width: 120px;
+}
