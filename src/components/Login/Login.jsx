@@ -21,7 +21,7 @@ const Login = () => {
             <h1>Welcome to </h1>
           </div>
         </div>
-        <img src="https://img.icons8.com/?size=256&id=6svx5N5sTaA0&format=png" alt="Logo" />
+        <img src="https://media.discordapp.net/attachments/1055292395505332336/1184636863307337818/logosn.png?ex=658cb20d&is=657a3d0d&hm=7db25faf994ee479b32f416c9b183cb501032dbf8450c8a52f834da631aa0939&=&format=webp&quality=lossless&width=625&height=625" alt="Logo" />
       </div>
       <div className='log-cod'>
         <div className='cont-card'>
@@ -62,7 +62,6 @@ const Login = () => {
               Restablecer contraseña
             </a>
           </div>
-          <hr />
           <button type='button'>
             Regístrate
           </button>

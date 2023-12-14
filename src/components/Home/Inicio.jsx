@@ -1,6 +1,5 @@
 // src/components/Home/Home.jsx
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Home = () => {
   
@@ -23,7 +22,7 @@ const Home = () => {
         <p>Edad: {usuarioRandom.edad}</p>
       </div>
       <div>
-        <Link to={endpointUsuario}>Ir a mi endpoint personalizado</Link>
+        <a href={endpointUsuario} target="_blank" rel="noopener noreferrer">Abrir en nueva pestaña</a>
       </div>
     </div>
   );

@@ -24,9 +24,27 @@ img {
     margin: 0 auto;
     justify-content: center;
     flex-direction: row-reverse;
-    height: 96vh;
-  }
+    height: 100vh;
+
+
+    background: linear-gradient(300deg,#004c80,#003861,#ffd042,#d1b900,#fffef5);
+    background-size: 300% 300%;
+    animation: gradient-animation 30s ease infinite;
+    
   
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
   .log-img {
     width: 70%;
     text-align: center;
@@ -37,7 +55,7 @@ img {
     float: left;
     width: 30%;
     padding: 20px;
-    background: #f0f0f0;
+    background: #004c80;
     height: 100vh;
     text-align: center;
     justify-content: space-evenly;
@@ -50,6 +68,7 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    width: 300px;
   }
   
   .log-cod form {
@@ -160,3 +179,18 @@ img {
     margin-top: 20px;
   }
   
+
+  /* //////////////////////////////// */
+
+  @media screen and (max-width: 768px) {
+    
+    .log-img{
+      display: none;
+    }
+
+    .log-cod{
+      height: 100%;
+      width: 100%;
+    }
+    
+  }
