@@ -52,16 +52,17 @@ img {
   }
   
   .log-cod {
+    border-radius: 0px 30px 30px 0px;
     float: left;
     width: 30%;
     padding: 20px;
     background: #004c80;
-    height: 100vh;
     text-align: center;
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    gap: 50px;
   }
   
   .log-img img {
@@ -191,6 +192,7 @@ img {
     .log-cod{
       height: 100%;
       width: 100%;
+      border-radius: 0px 0px 0px 0px ;
     }
     
   }

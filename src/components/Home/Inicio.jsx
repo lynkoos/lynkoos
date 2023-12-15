@@ -7,6 +7,7 @@ const Home = () => {
   const usuarioRandom = {
     nombre: 'Karol',
     apellido: 'Florez',
+    follower: 3591,
     edad: 20,
   };
 
@@ -46,6 +47,12 @@ const Home = () => {
               <h3>{usuarioRandom.nombre}</h3>
               <h3>{usuarioRandom.apellido}</h3>
             </div>
+            <div className='follow-acount'>
+              <h5>Seguidores</h5>
+              <div>
+                <h5>{usuarioRandom.follower}</h5>
+              </div>
+            </div>
           </div>
           <div>
             <div className='content_back'>
@@ -56,7 +63,7 @@ const Home = () => {
                   </div>
                   <h3 className='Cursor-Follow'>{usuarioRandom.nombre}</h3>
                   <div>
-                  <a className='Cursor-Follow' href={endpointUsuario} target="_blank" rel="noopener noreferrer">SEGUIR</a>
+                  <a className='Cursor-Follow' href={endpointUsuario} target="_blank" rel="noopener noreferrer">Seguir</a>
                   </div>
                 </div>
                 <hr />
@@ -66,7 +73,7 @@ const Home = () => {
                   </div>
                   <h3 className='Cursor-Follow'>{usuarioRandom.nombre}</h3>
                   <div>
-                  <a className='Cursor-Follow' href={endpointUsuario} target="_blank" rel="noopener noreferrer">SEGUIR</a>
+                  <a className='Cursor-Follow' href={endpointUsuario} target="_blank" rel="noopener noreferrer">Seguir</a>
                   </div>
                 </div>
                 <hr />
@@ -76,7 +83,7 @@ const Home = () => {
                   </div>
                   <h3 className='Cursor-Follow'>{usuarioRandom.nombre}</h3>
                   <div>
-                  <a className='Cursor-Follow' href={endpointUsuario} target="_blank" rel="noopener noreferrer">SEGUIR</a>
+                  <a className='Cursor-Follow' href={endpointUsuario} target="_blank" rel="noopener noreferrer">Seguir</a>
                   </div>
                 </div>
                 <hr />
@@ -86,7 +93,7 @@ const Home = () => {
                   </div>
                   <h3 className='Cursor-Follow'>{usuarioRandom.nombre}</h3>
                   <div>
-                  <a className='Cursor-Follow' href={endpointUsuario} target="_blank" rel="noopener noreferrer">SEGUIR</a>
+                  <a className='Cursor-Follow' href={endpointUsuario} target="_blank" rel="noopener noreferrer">Seguir</a>
                   </div>
                 </div>
                 <hr />
