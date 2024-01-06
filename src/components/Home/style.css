@@ -388,3 +388,8 @@
     top: 701px;
     width: 28px;
   }
+
+  .container{
+    margin: 0 auto;
+    padding: 0 auto;
+  }

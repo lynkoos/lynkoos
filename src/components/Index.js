@@ -1,26 +1,56 @@
-// src/components/Index.jsx
 import React from 'react';
+import Imagesvg from '../img/logo-black.svg';
+import Imagepng from '../img/Logo-Black.png';
+import './index.css';
 
 const Index = () => {
   return (
-    <div>
-      <h1>Bienvenido a la Página Principal</h1>
-      <p>Esta es la página principal de tu aplicación.</p>
-
-    <div>
-
-      <div>
-        <div className='Hello'>
-          <img src='.\src\img\logo[sn].png' alt=' placeholder' />
-          <h3>hello</h3>
-        </div>
-        <div className='Hello'></div>
-        <div className='Hello'></div>
+    <div className='Content'>
+      <div className='watch'>
+        <img src={Imagesvg} alt="logo" />
       </div>
-
-    </div>
-
-
+      <div className='landing'>
+        <div className='nav'>
+          <div className='Nav-logo'>
+            <img src={Imagesvg} alt="logo" />
+          </div>                                                                                                                                                       
+          <ul className='list'> 
+            <li>
+              <a href='/#'>Contacto</a>
+            </li>
+            <li>
+              <a href='/#'>Soporte</a>
+            </li>
+            <li>
+              <a href='/#'>Acerca</a>
+            </li>
+            <li>
+              <a href='/#'>Blog</a>
+            </li>
+          </ul>
+          <div className='User-nav'>
+            <img src={Imagesvg} alt="logo" />
+            <img src={Imagesvg} alt="logo" />
+          </div>
+        </div>
+        <div className='main'>
+          <div className='main-cont'>
+            <div className='main-left'>
+              <div className='cont-text'>
+                <p className='title'>The Perfect Moment</p>
+                <p>Between Past And <br></br> Future</p>
+              </div>
+            </div>
+            <div className='main-right'>
+              <div>
+                <div className='LogoPng'>
+                  <img src={Imagepng} alt="logo" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
