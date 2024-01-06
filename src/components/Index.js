@@ -1,44 +1,48 @@
 import React from 'react';
 import Imagesvg from '../img/logo-black.svg';
 import Imagepng from '../img/Logo-Black.png';
+import UserPng from '../img/user.png';
 import './index.css';
 
 const Index = () => {
   return (
     <div className='Content'>
       <div className='watch'>
-        <img src={Imagesvg} alt="logo" />
+        <a href='/'>
+          <img src={Imagesvg} alt='Logo'></img>
+        </a>
       </div>
       <div className='landing'>
         <div className='nav'>
           <div className='Nav-logo'>
-            <img src={Imagesvg} alt="logo" />
+            <a href='/'><img src={Imagesvg} alt='Logo'></img></a>
           </div>                                                                                                                                                       
           <ul className='list'> 
             <li>
-              <a href='/#'>Contacto</a>
+              <a href='/contacto'>Contacto</a>
             </li>
             <li>
-              <a href='/#'>Soporte</a>
+              <a href='/soporte'>Soporte</a>
             </li>
             <li>
-              <a href='/#'>Acerca</a>
+              <a href='/acerca'>Acerca</a>
             </li>
             <li>
-              <a href='/#'>Blog</a>
+              <a href='/blog'>Blog</a>
             </li>
           </ul>
           <div className='User-nav'>
-            <img src={Imagesvg} alt="logo" />
-            <img src={Imagesvg} alt="logo" />
+            <a href='/cuenta'>
+              <img src={UserPng} alt='User'></img>
+            </a>
           </div>
         </div>
         <div className='main'>
           <div className='main-cont'>
             <div className='main-left'>
               <div className='cont-text'>
-                <p className='title'>The Perfect Moment</p>
-                <p>Between Past And <br></br> Future</p>
+                <p className='title'>Bienvenido a <strong>Lynkoos</strong></p>
+                <p></p>
               </div>
             </div>
             <div className='main-right'>
@@ -48,7 +52,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
     </div>

@@ -4,8 +4,6 @@
     font-family: 'Concert One', sans-serif;
 }
 
-
-
 h3{
     color: black;
 }
@@ -39,8 +37,8 @@ img{
     justify-content: center;
 }
 
-.watch>img{
-    padding-top: 30px;
+.watch>a{
+    padding-top: 20px;
 }
 
 .nav{
@@ -88,6 +86,12 @@ li>a:hover{
     padding-right: 20px;
 }
 
+.User-nav>a>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
 
 .main{
     grid-row: 2;
