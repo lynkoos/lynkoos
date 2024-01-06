@@ -1,0 +1,390 @@
+.apple-watch-landing {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .apple-watch-landing .div {
+    background-color: #ffffff;
+    height: 900px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .apple-watch-landing .overlap {
+    background: linear-gradient(180deg, rgb(199.86, 220.14, 229.5) 0%, rgb(181.51, 204.33, 217.81) 100%);
+    border-radius: 15px 0px 0px 15px;
+    height: 900px;
+    left: 100px;
+    position: absolute;
+    top: 0;
+    width: 1340px;
+  }
+  
+  .apple-watch-landing .logo {
+    height: 50px;
+    left: 62px;
+    position: absolute;
+    top: 46px;
+    width: 50px;
+  }
+  
+  .apple-watch-landing .menu-bar {
+    height: 36px;
+    left: 231px;
+    position: absolute;
+    top: 56px;
+    width: 1039px;
+  }
+  
+  .apple-watch-landing .navbar {
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 648px;
+  }
+  
+  .apple-watch-landing .text-wrapper {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+  }
+  
+  .apple-watch-landing .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 129px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+  }
+  
+  .apple-watch-landing .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 281px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+  }
+  
+  .apple-watch-landing .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 567px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+  }
+  
+  .apple-watch-landing .menu-active {
+    height: 36px;
+    left: 379px;
+    position: absolute;
+    top: 0;
+    width: 132px;
+  }
+  
+  .apple-watch-landing .overlap-group {
+    background-color: #ffffff;
+    border-radius: 100px;
+    height: 36px;
+    position: relative;
+    width: 130px;
+  }
+  
+  .apple-watch-landing .text-wrapper-5 {
+    color: #b5ccd9;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+  }
+  
+  .apple-watch-landing .search-and-cart {
+    height: 24px;
+    left: 951px;
+    position: absolute;
+    top: 6px;
+    width: 88px;
+  }
+  
+  .apple-watch-landing .overlap-2 {
+    height: 539px;
+    left: 62px;
+    position: absolute;
+    top: 177px;
+    width: 1164px;
+  }
+  
+  .apple-watch-landing .overlap-3 {
+    height: 539px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1164px;
+  }
+  
+  .apple-watch-landing .title {
+    height: 258px;
+    left: 0;
+    position: absolute;
+    top: 94px;
+    width: 682px;
+  }
+  
+  .apple-watch-landing .the-perfect-moment {
+    color: #ffffff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 1.28px;
+    line-height: 86px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .apple-watch-landing .span {
+    font-weight: 700;
+  }
+  
+  .apple-watch-landing .text-wrapper-6 {
+    font-family: "Poppins-Regular", Helvetica;
+  }
+  
+  .apple-watch-landing .watch {
+    height: 539px;
+    left: 675px;
+    position: absolute;
+    top: 0;
+    width: 489px;
+  }
+  
+  .apple-watch-landing .element {
+    height: 489px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 489px;
+  }
+  
+  .apple-watch-landing .ellipse {
+    background-color: #aac5d5;
+    border-radius: 154.5px/25px;
+    filter: blur(41px);
+    height: 50px;
+    left: 89px;
+    position: absolute;
+    top: 489px;
+    width: 309px;
+  }
+  
+  .apple-watch-landing .button-CAT {
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 434px;
+    width: 252px;
+  }
+  
+  .apple-watch-landing .overlap-4 {
+    border-radius: 100px;
+    height: 70px;
+    position: relative;
+    width: 250px;
+  }
+  
+  .apple-watch-landing .text-wrapper-7 {
+    color: #fff9f9;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 74px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+  }
+  
+  .apple-watch-landing .rectangle {
+    border: 3px solid;
+    border-color: #ffffff;
+    border-radius: 100px;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 250px;
+  }
+  
+  .apple-watch-landing .color-indicator {
+    height: 162px;
+    left: 1239px;
+    position: absolute;
+    top: 369px;
+    width: 38px;
+  }
+  
+  .apple-watch-landing .overlap-wrapper {
+    height: 98px;
+    left: 1112px;
+    position: absolute;
+    top: 760px;
+    width: 131px;
+  }
+  
+  .apple-watch-landing .overlap-5 {
+    height: 98px;
+    position: relative;
+  }
+  
+  .apple-watch-landing .rectangle-2 {
+    background-color: #f9cdc499;
+    border-radius: 10px;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 28px;
+    width: 131px;
+  }
+  
+  .apple-watch-landing .img {
+    height: 90px;
+    left: 19px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 92px;
+  }
+  
+  .apple-watch-landing .overlap-group-wrapper {
+    height: 98px;
+    left: 952px;
+    position: absolute;
+    top: 760px;
+    width: 131px;
+  }
+  
+  .apple-watch-landing .rectangle-3 {
+    background-color: #6addcc99;
+    border-radius: 10px;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 28px;
+    width: 131px;
+  }
+  
+  .apple-watch-landing .element-2 {
+    height: 90px;
+    left: 20px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 90px;
+  }
+  
+  .apple-watch-landing .div-wrapper {
+    height: 98px;
+    left: 794px;
+    position: absolute;
+    top: 760px;
+    width: 131px;
+  }
+  
+  .apple-watch-landing .rectangle-4 {
+    background-color: #43455899;
+    border-radius: 10px;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 28px;
+    width: 131px;
+  }
+  
+  .apple-watch-landing .element-3 {
+    height: 90px;
+    left: 19px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 90px;
+  }
+  
+  .apple-watch-landing .page-indicator {
+    height: 21px;
+    left: 62px;
+    position: absolute;
+    top: 812px;
+    width: 75px;
+  }
+  
+  .apple-watch-landing .vector {
+    height: 7px;
+    left: 54px;
+    object-fit: cover;
+    position: absolute;
+    top: 7px;
+    width: 19px;
+  }
+  
+  .apple-watch-landing .vector-2 {
+    height: 7px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 7px;
+    width: 19px;
+  }
+  
+  .apple-watch-landing .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .apple-watch-landing .nav-menu {
+    height: 24px;
+    left: 33px;
+    position: absolute;
+    top: 44px;
+    width: 34px;
+  }
+  
+  .apple-watch-landing .social-icon {
+    height: 132px;
+    left: 37px;
+    position: absolute;
+    top: 701px;
+    width: 28px;
+  }
