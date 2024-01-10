@@ -1,6 +1,6 @@
 import React from 'react';
 import Imagesvg from '../img/logo-black.svg';
-import Imagepng from '../img/Logo-Black.png';
+import Imagepng from '../img/logo-black.png';
 import UserPng from '../img/user.png';
 import './index.css';
 
