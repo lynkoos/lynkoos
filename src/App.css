@@ -1,15 +1,28 @@
-* {
+*{
   padding: 0px;
   margin: 0px;
+  font-family: monospace;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 body {
   user-select: none;
-  -webkit-user-select: none;
   -moz-user-select: none;
+  -webkit-user-select: none;
   -ms-user-select: none;
-}
-
-img {
-  pointer-events: none;
+  background: #dbe0ec;
+  font-family: monospace;
 }

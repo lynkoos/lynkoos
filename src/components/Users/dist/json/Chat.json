@@ -1,0 +1,580 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "text": "¡Hola! ¿Cómo estás?",
+      "sender": "recipient",
+      "timestamp": "2024-01-01T12:30:00Z"
+    },
+    {
+      "id": 2,
+      "text": "¡Hola! Estoy bien, gracias.",
+      "sender": "user",
+      "timestamp": "2024-01-01T12:35:00Z"
+    },
+    {
+      "id": 3,
+      "text": "Y dime cómo has estado?",
+      "sender": "recipient",
+      "timestamp": "2024-01-01T12:40:00Z"
+    },
+    {
+      "id": 4,
+      "text": "¡Bien! He estado muy bien",
+      "sender": "user",
+      "timestamp": "2024-01-01T12:40:00Z"
+    },
+    {
+      "id": 5,
+      "text": "Perfecto.",
+      "sender": "recipient",
+      "timestamp": "2024-01-01T12:40:00Z"
+    },
+    {
+      "id": 6,
+      "text": "¿Cómo vas en el colegio?",
+      "sender": "user",
+      "timestamp": "2024-01-01T12:40:00Z"
+    },
+    {
+      "id": 7,
+      "text": "¡Supremamente bien!",
+      "sender": "recipient",
+      "timestamp": "2024-01-01T12:40:00Z"
+    },
+    {
+      "id": 8,
+      "text": "¿Y tus notas cómo van?",
+      "sender": "user",
+      "timestamp": "2024-01-01T12:40:00Z"
+    },
+    {
+      "id": 9,
+      "text": "También bien!",
+      "sender": "recipient",
+      "timestamp": "2024-01-01T12:40:00Z"
+    },
+    {
+      "id": 10,
+      "text": "¡Qué bien, me alegro!",
+      "sender": "user",
+      "timestamp": "2024-01-01T12:40:00Z"
+    },
+    {
+      "id": 11,
+      "text": "Sí, excelente",
+      "sender": "recipient",
+      "timestamp": "2024-01-01T12:40:00Z"
+    },
+    {
+      "id": 12,
+      "text": "Saludos a todos, bye",
+      "sender": "user",
+      "timestamp": "2024-01-01T12:40:00Z"
+    },
+    {
+      "id": 13,
+      "text": "Hola de nuevo, ¿cómo va todo?",
+      "sender": "recipient",
+      "timestamp": "2024-01-02T09:15:00Z"
+    },
+    {
+      "id": 14,
+      "text": "Todo marcha bien, gracias por preguntar",
+      "sender": "user",
+      "timestamp": "2024-01-02T09:20:00Z"
+    },
+    {
+      "id": 15,
+      "text": "¿Y en tu trabajo cómo va?",
+      "sender": "user",
+      "timestamp": "2024-01-02T09:25:00Z"
+    },
+    {
+      "id": 16,
+      "text": "Va bastante bien, hemos estado ocupados últimamente",
+      "sender": "recipient",
+      "timestamp": "2024-01-02T09:30:00Z"
+    },
+    {
+      "id": 17,
+      "text": "Eso suena emocionante, ¿qué proyectos están manejando?",
+      "sender": "user",
+      "timestamp": "2024-01-02T09:35:00Z"
+    },
+    {
+      "id": 18,
+      "text": "Estamos trabajando en un nuevo proyecto de desarrollo de software",
+      "sender": "recipient",
+      "timestamp": "2024-01-02T09:40:00Z"
+    },
+    {
+      "id": 19,
+      "text": "¡Interesante! Me encantaría escuchar más sobre eso",
+      "sender": "user",
+      "timestamp": "2024-01-02T09:45:00Z"
+    },
+    {
+      "id": 20,
+      "text": "Por supuesto, podríamos programar una reunión para discutirlo",
+      "sender": "recipient",
+      "timestamp": "2024-01-02T09:50:00Z"
+    },
+    {
+      "id": 21,
+      "text": "Eso suena bien, estoy disponible la próxima semana",
+      "sender": "user",
+      "timestamp": "2024-01-02T09:55:00Z"
+    },
+    {
+      "id": 22,
+      "text": "Perfecto, coordinaré con el equipo y te avisaré de la fecha y hora",
+      "sender": "recipient",
+      "timestamp": "2024-01-02T10:00:00Z"
+    },
+    {
+      "id": 23,
+      "text": "Gracias, estaré esperando la información",
+      "sender": "user",
+      "timestamp": "2024-01-02T10:05:00Z"
+    },
+    {
+      "id": 24,
+      "text": "¡De nada! ¿Hay algo más en lo que pueda ayudarte?",
+      "sender": "recipient",
+      "timestamp": "2024-01-02T10:10:00Z"
+    },
+    {
+      "id": 25,
+      "text": "No por ahora, gracias. ¡Hablemos luego!",
+      "sender": "user",
+      "timestamp": "2024-01-02T10:15:00Z"
+    },
+    {
+      "id": 26,
+      "text": "¡Claro! ¡Hasta luego!",
+      "sender": "recipient",
+      "timestamp": "2024-01-02T10:20:00Z"
+    },
+    {
+      "id": 27,
+      "text": "Hola de nuevo, ¿cómo va todo?",
+      "sender": "recipient",
+      "timestamp": "2024-01-03T12:15:00Z"
+    },
+    {
+      "id": 28,
+      "text": "Todo marcha bien, gracias por preguntar",
+      "sender": "user",
+      "timestamp": "2024-01-03T12:20:00Z"
+    },
+    {
+      "id": 29,
+      "text": "¿Y en tu trabajo cómo va?",
+      "sender": "user",
+      "timestamp": "2024-01-03T12:25:00Z"
+    },
+    {
+      "id": 30,
+      "text": "Va bastante bien, hemos estado ocupados últimamente",
+      "sender": "recipient",
+      "timestamp": "2024-01-03T12:30:00Z"
+    },
+    {
+      "id": 31,
+      "text": "Eso suena emocionante, ¿qué proyectos están manejando?",
+      "sender": "user",
+      "timestamp": "2024-01-03T12:35:00Z"
+    },
+    {
+      "id": 32,
+      "text": "Estamos trabajando en un nuevo proyecto de desarrollo de software",
+      "sender": "recipient",
+      "timestamp": "2024-01-03T12:40:00Z"
+    },
+    {
+      "id": 33,
+      "text": "¡Interesante! Me encantaría escuchar más sobre eso",
+      "sender": "user",
+      "timestamp": "2024-01-03T12:45:00Z"
+    },
+    {
+      "id": 34,
+      "text": "Por supuesto, podríamos programar una reunión para discutirlo",
+      "sender": "recipient",
+      "timestamp": "2024-01-03T12:50:00Z"
+    },
+    {
+      "id": 35,
+      "text": "Eso suena bien, estoy disponible la próxima semana",
+      "sender": "user",
+      "timestamp": "2024-01-03T12:55:00Z"
+    },
+    {
+      "id": 36,
+      "text": "Perfecto, coordinaré con el equipo y te avisaré de la fecha y hora",
+      "sender": "recipient",
+      "timestamp": "2024-01-03T13:00:00Z"
+    },
+    {
+      "id": 37,
+      "text": "Gracias, estaré esperando la información",
+      "sender": "user",
+      "timestamp": "2024-01-03T13:05:00Z"
+    },
+    {
+      "id": 38,
+      "text": "¡De nada! ¿Hay algo más en lo que pueda ayudarte?",
+      "sender": "recipient",
+      "timestamp": "2024-01-03T13:10:00Z"
+    },
+    {
+      "id": 39,
+      "text": "No por ahora, gracias. ¡Hablemos luego!",
+      "sender": "user",
+      "timestamp": "2024-01-03T13:15:00Z"
+    },
+    {
+      "id": 40,
+      "text": "¡Claro! ¡Hasta luego!",
+      "sender": "recipient",
+      "timestamp": "2024-01-03T13:20:00Z"
+    },
+    {
+      "id": 41,
+      "text": "Hola de nuevo, ¿cómo va todo?",
+      "sender": "recipient",
+      "timestamp": "2024-01-04T15:15:00Z"
+    },
+    {
+      "id": 42,
+      "text": "Todo marcha bien, gracias por preguntar",
+      "sender": "user",
+      "timestamp": "2024-01-04T15:20:00Z"
+    },
+    {
+      "id": 43,
+      "text": "¿Y en tu trabajo cómo va?",
+      "sender": "user",
+      "timestamp": "2024-01-04T15:25:00Z"
+    },
+    {
+      "id": 44,
+      "text": "Va bastante bien, hemos estado ocupados últimamente",
+      "sender": "recipient",
+      "timestamp": "2024-01-04T15:30:00Z"
+    },
+    {
+      "id": 45,
+      "text": "Eso suena emocionante, ¿qué proyectos están manejando?",
+      "sender": "user",
+      "timestamp": "2024-01-04T15:35:00Z"
+    },
+    {
+      "id": 46,
+      "text": "Estamos trabajando en un nuevo proyecto de desarrollo de software",
+      "sender": "recipient",
+      "timestamp": "2024-01-04T15:40:00Z"
+    },
+    {
+      "id": 47,
+      "text": "¡Interesante! Me encantaría escuchar más sobre eso",
+      "sender": "user",
+      "timestamp": "2024-01-04T15:45:00Z"
+    },
+    {
+      "id": 48,
+      "text": "Por supuesto, podríamos programar una reunión para discutirlo",
+      "sender": "recipient",
+      "timestamp": "2024-01-04T15:50:00Z"
+    },
+    {
+      "id": 49,
+      "text": "Eso suena bien, estoy disponible la próxima semana",
+      "sender": "user",
+      "timestamp": "2024-01-04T15:55:00Z"
+    },
+    {
+      "id": 50,
+      "text": "Perfecto, coordinaré con el equipo y te avisaré de la fecha y hora",
+      "sender": "recipient",
+      "timestamp": "2024-01-04T16:00:00Z"
+    },
+    {
+      "id": 51,
+      "text": "Hola nuevamente, ¿cómo va todo?",
+      "sender": "recipient",
+      "timestamp": "2024-01-05T09:15:00Z"
+    },
+    {
+      "id": 52,
+      "text": "Todo marcha bien, gracias por preguntar",
+      "sender": "user",
+      "timestamp": "2024-01-05T09:20:00Z"
+    },
+    {
+      "id": 53,
+      "text": "¿Y en tu trabajo cómo va?",
+      "sender": "user",
+      "timestamp": "2024-01-05T09:25:00Z"
+    },
+    {
+      "id": 54,
+      "text": "Va bastante bien, hemos estado ocupados últimamente",
+      "sender": "recipient",
+      "timestamp": "2024-01-05T09:30:00Z"
+    },
+    {
+      "id": 55,
+      "text": "Eso suena emocionante, ¿qué proyectos están manejando?",
+      "sender": "user",
+      "timestamp": "2024-01-05T09:35:00Z"
+    },
+    {
+      "id": 56,
+      "text": "Estamos trabajando en un nuevo proyecto de desarrollo de software",
+      "sender": "recipient",
+      "timestamp": "2024-01-05T09:40:00Z"
+    },
+    {
+      "id": 57,
+      "text": "¡Interesante! Me encantaría escuchar más sobre eso",
+      "sender": "user",
+      "timestamp": "2024-01-05T09:45:00Z"
+    },
+    {
+      "id": 58,
+      "text": "Por supuesto, podríamos programar una reunión para discutirlo",
+      "sender": "recipient",
+      "timestamp": "2024-01-05T09:50:00Z"
+    },
+    {
+      "id": 59,
+      "text": "Eso suena bien, estoy disponible la próxima semana",
+      "sender": "user",
+      "timestamp": "2024-01-05T09:55:00Z"
+    },
+    {
+      "id": 60,
+      "text": "Perfecto, coordinaré con el equipo y te avisaré de la fecha y hora",
+      "sender": "recipient",
+      "timestamp": "2024-01-05T10:00:00Z"
+    },
+    {
+      "id": 61,
+      "text": "Gracias, estaré esperando la información",
+      "sender": "user",
+      "timestamp": "2024-01-05T10:05:00Z"
+    },
+    {
+      "id": 62,
+      "text": "¡De nada! ¿Hay algo más en lo que pueda ayudarte?",
+      "sender": "recipient",
+      "timestamp": "2024-01-05T10:10:00Z"
+    },
+    {
+      "id": 63,
+      "text": "No por ahora, gracias. ¡Hablemos luego!",
+      "sender": "user",
+      "timestamp": "2024-01-05T10:15:00Z"
+    },
+    {
+      "id": 64,
+      "text": "¡Claro! ¡Hasta luego!",
+      "sender": "recipient",
+      "timestamp": "2024-01-05T10:20:00Z"
+    },
+    {
+      "id": 65,
+      "text": "Hola nuevamente, ¿cómo va todo?",
+      "sender": "recipient",
+      "timestamp": "2024-01-06T12:15:00Z"
+    },
+    {
+      "id": 66,
+      "text": "Todo marcha bien, gracias por preguntar",
+      "sender": "user",
+      "timestamp": "2024-01-06T12:20:00Z"
+    },
+    {
+      "id": 67,
+      "text": "¿Y en tu trabajo cómo va?",
+      "sender": "user",
+      "timestamp": "2024-01-06T12:25:00Z"
+    },
+    {
+      "id": 68,
+      "text": "Va bastante bien, hemos estado ocupados últimamente",
+      "sender": "recipient",
+      "timestamp": "2024-01-06T12:30:00Z"
+    },
+    {
+      "id": 69,
+      "text": "Eso suena emocionante, ¿qué proyectos están manejando?",
+      "sender": "user",
+      "timestamp": "2024-01-06T12:35:00Z"
+    },
+    {
+      "id": 70,
+      "text": "Estamos trabajando en un nuevo proyecto de desarrollo de software",
+      "sender": "recipient",
+      "timestamp": "2024-01-06T12:40:00Z"
+    },
+    {
+      "id": 71,
+      "text": "¡Interesante! Me encantaría escuchar más sobre eso",
+      "sender": "user",
+      "timestamp": "2024-01-06T12:45:00Z"
+    },
+    {
+      "id": 72,
+      "text": "Por supuesto, podríamos programar una reunión para discutirlo",
+      "sender": "recipient",
+      "timestamp": "2024-01-06T12:50:00Z"
+    },
+    {
+      "id": 73,
+      "text": "Eso suena bien, estoy disponible la próxima semana",
+      "sender": "user",
+      "timestamp": "2024-01-06T12:55:00Z"
+    },
+    {
+      "id": 74,
+      "text": "Perfecto, coordinaré con el equipo y te avisaré de la fecha y hora",
+      "sender": "recipient",
+      "timestamp": "2024-01-06T13:00:00Z"
+    },
+    {
+      "id": 75,
+      "text": "Gracias, estaré esperando la información",
+      "sender": "user",
+      "timestamp": "2024-01-06T13:05:00Z"
+    },
+    {
+      "id": 76,
+      "text": "¡De nada! ¿Hay algo más en lo que pueda ayudarte?",
+      "sender": "recipient",
+      "timestamp": "2024-01-06T13:10:00Z"
+    },
+    {
+      "id": 77,
+      "text": "No por ahora, gracias. ¡Hablemos luego!",
+      "sender": "user",
+      "timestamp": "2024-01-06T13:15:00Z"
+    },
+    {
+      "id": 78,
+      "text": "¡Claro! ¡Hasta luego!",
+      "sender": "recipient",
+      "timestamp": "2024-01-06T13:20:00Z"
+    },
+    {
+      "id": 79,
+      "text": "Hola nuevamente, ¿cómo va todo?",
+      "sender": "recipient",
+      "timestamp": "2024-01-07T15:15:00Z"
+    },
+    {
+      "id": 80,
+      "text": "Todo marcha bien, gracias por preguntar",
+      "sender": "user",
+      "timestamp": "2024-01-07T15:20:00Z"
+    },
+    {
+      "id": 81,
+      "text": "¿Y en tu trabajo cómo va?",
+      "sender": "user",
+      "timestamp": "2024-01-07T15:25:00Z"
+    },
+    {
+      "id": 82,
+      "text": "Va bastante bien, hemos estado ocupados últimamente",
+      "sender": "recipient",
+      "timestamp": "2024-01-07T15:30:00Z"
+    },
+    {
+      "id": 83,
+      "text": "Eso suena emocionante, ¿qué proyectos están manejando?",
+      "sender": "user",
+      "timestamp": "2024-01-07T15:35:00Z"
+    },
+    {
+      "id": 84,
+      "text": "Estamos trabajando en un nuevo proyecto de desarrollo de software",
+      "sender": "recipient",
+      "timestamp": "2024-01-07T15:40:00Z"
+    },
+    {
+      "id": 85,
+      "text": "¡Interesante! Me encantaría escuchar más sobre eso",
+      "sender": "user",
+      "timestamp": "2024-01-07T15:45:00Z"
+    },
+    {
+      "id": 86,
+      "text": "Por supuesto, podríamos programar una reunión para discutirlo",
+      "sender": "recipient",
+      "timestamp": "2024-01-07T15:50:00Z"
+    },
+    {
+      "id": 87,
+      "text": "Eso suena bien, estoy disponible la próxima semana",
+      "sender": "user",
+      "timestamp": "2024-01-07T15:55:00Z"
+    },
+    {
+      "id": 88,
+      "text": "Perfecto, coordinaré con el equipo y te avisaré de la fecha y hora",
+      "sender": "recipient",
+      "timestamp": "2024-01-07T16:00:00Z"
+    },
+    {
+      "id": 89,
+      "text": "Gracias, estaré esperando la información",
+      "sender": "user",
+      "timestamp": "2024-01-07T16:05:00Z"
+    },
+    {
+      "id": 90,
+      "text": "¡De nada! ¿Hay algo más en lo que pueda ayudarte?",
+      "sender": "recipient",
+      "timestamp": "2024-01-07T16:10:00Z"
+    },
+    {
+      "id": 91,
+      "text": "No por ahora, gracias. ¡Hablemos luego!",
+      "sender": "user",
+      "timestamp": "2024-01-07T16:15:00Z"
+    },
+    {
+      "id": 92,
+      "text": "¡Claro! ¡Hasta luego!",
+      "sender": "recipient",
+      "timestamp": "2024-01-07T16:20:00Z"
+    },
+    {
+      "id": 93,
+      "text": "Hola nuevamente, ¿cómo va todo?",
+      "sender": "recipient",
+      "timestamp": "2024-01-08T10:15:00Z"
+    },
+    {
+      "id": 94,
+      "text": "Todo marcha bien, gracias por preguntar",
+      "sender": "user",
+      "timestamp": "2024-01-08T10:20:00Z"
+    },
+    {
+      "id": 95,
+      "text": "¿Y en tu trabajo cómo va?",
+      "sender": "user",
+      "timestamp": "2024-01-08T10:25:00Z"
+    },
+    {
+      "id": 96,
+      "text": "Va bastante bien, hemos estado ocupados últimamente",
+      "sender": "recipient",
+      "timestamp": "2024-01-08T10:30:00Z"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+/* ///// nav ///// */
+
+@media (max-width: 900px) {
+    .class-cont{
+        bottom: -10px;
+        position: absolute;
+        padding: 1pc;
+        z-index: 2;
+        width: 23pc;
+    }
+    .class-cont-nav{
+        background-color: red;
+        padding: 1pc;
+    }
+    .class-cont-nav-filter{
+        background-color: aqua;
+        z-index: 2;
+        filter: blur(3);
+        position: relative;
+        height: 4pc;
+    }
+}
