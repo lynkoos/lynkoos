@@ -4,19 +4,28 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    padding: 10,
-    overflow: 'hidden',
+    backgroundColor: '#f0f0f0',
+    paddingLeft: '2%',
+    paddingRight: '2%',
   },
   sectionTitle: {
     fontSize: 24,
     fontWeight: 'bold',
     marginTop: 20,
-    marginBottom: 10,
+    marginBottom: 15,
+    color: '#333',
   },
   storyItem: {
-    marginRight: 10,
+    marginRight: 15,
     alignItems: 'center',
+    borderRadius: 10,
+    backgroundColor: '#fff',
+    padding: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 2,
   },
   storyImage: {
     width: 80,
@@ -26,13 +35,18 @@ const styles = StyleSheet.create({
   storyUser: {
     marginTop: 5,
     fontWeight: 'bold',
+    color: '#555',
   },
   postItem: {
     marginBottom: 20,
-    borderWidth: 1,
-    borderColor: '#ccc',
-    padding: 10,
-    borderRadius: 5,
+    borderRadius: 10,
+    backgroundColor: '#fff',
+    padding: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 2,
   },
   userInfo: {
     flexDirection: 'row',
@@ -48,11 +62,13 @@ const styles = StyleSheet.create({
   userName: {
     fontWeight: 'bold',
     fontSize: 16,
+    color: '#333',
   },
   postTitle: {
     fontWeight: 'bold',
     fontSize: 18,
     marginBottom: 10,
+    color: '#444',
   },
   postInfo: {
     flexDirection: 'row',
@@ -71,17 +87,24 @@ const styles = StyleSheet.create({
   },
   reaction: {
     marginLeft: 5,
+    fontSize: 18,
   },
   eventItem: {
-    backgroundColor: '#f9f9f9',
-    padding: 10,
-    marginBottom: 10,
-    borderRadius: 5,
+    backgroundColor: '#fff',
+    padding: 15,
+    marginBottom: 20,
+    borderRadius: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 2,
   },
   eventTitle: {
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 5,
+    color: '#333',
   },
 });
 

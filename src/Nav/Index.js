@@ -22,7 +22,7 @@ const Navbar = () => {
       <TouchableOpacity style={styles.option} onPress={() => navigation.navigate('Settings')}>
         <Icon name="settings" size={28} style={styles.icon} />
       </TouchableOpacity>
-      <TouchableOpacity style={styles.option} onPress={() => navigation.navigate('About')}>
+      <TouchableOpacity style={styles.option} onPress={() => navigation.navigate('Register')}>
         <Icon name="add" size={28} style={styles.icon} />
       </TouchableOpacity>
     </View>
