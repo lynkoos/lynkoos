@@ -7,6 +7,10 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 const User = () => {
     const [verifiedBannerVisible, setVerifiedBannerVisible] = useState(false);
     const [modalVisible, setModalVisible] = useState(false);
+    const userBanner = require('../img/BannerLynkoos.png');
+    const defaultBanner = require('../img/BannerDefault.png');
+    const userProfileImage = require('../img/LogoLynkoos.png');
+    const defaultProfileImage = require('../img/LogoDefault.png');
 
     const handleVerifiedPress = () => {
         setVerifiedBannerVisible(true);
@@ -33,11 +37,11 @@ const User = () => {
     return (
         <ScrollView contentContainerStyle={styles.container}>
             <View style={styles.bannerUser}>
-                <Image source={{ uri: 'https://64.media.tumblr.com/c5543874b9cbe98da1d20945a45e989b/tumblr_o5a5r9Z9O71tvppquo1_r1_1280.gif' }} style={{ width: '100%', height: '100%' }} />
+                <Image source={userBanner || defaultBanner} style={{ width: '100%', height: '100%' }} />
             </View>
             <View style={styles.profileImageContainer}>
                 <View style={styles.profileImage}>
-                    <Image source={{ uri: 'https://media.licdn.com/dms/image/D4E03AQFjifh7ZnDBuw/profile-displayphoto-shrink_800_800/0/1699368520200?e=1712793600&v=beta&t=0lvFeZ1dSrAAJ9zpn7xTZs5iVBTK6nfWrKRSfEIIvcQ' }} style={styles.ImagenUser} />
+                    <Image source={userProfileImage || defaultProfileImage} style={styles.ImagenUser} />
                     <TouchableOpacity onPress={handleVerifiedPress} style={styles.verifiedIcon}>
                         <Image source={{ uri: 'https://img.icons8.com/?size=256&id=2xnEesCdQvBQ&format=png' }} style={{ width: 30, height: 30 }} />
                     </TouchableOpacity>

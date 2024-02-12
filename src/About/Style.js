@@ -1,3 +1,5 @@
+//src/about/Style.js
+
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -22,6 +24,8 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 0,
     right: 0,
+    zIndex: 5,
+    backgroundColor: 'rgba(255, 255, 255',
   },
   qrCode: {
     width: 50,

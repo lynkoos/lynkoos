@@ -1,4 +1,3 @@
-// Nav/Style.js
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -24,6 +23,10 @@ const styles = StyleSheet.create({
   },
   icon: {
     color: '#333',
+  },
+  bubble: {
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
 

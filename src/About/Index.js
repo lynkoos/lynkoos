@@ -1,3 +1,5 @@
+//src/about/index.js
+
 import React, { useState, useRef } from 'react';
 import { View, Text, TouchableOpacity, Image, Share, Modal } from 'react-native';
 import QRCode from 'react-native-qrcode-svg';

@@ -1,0 +1,85 @@
+{
+    "Backgrounds": {
+        "Default": {
+            "bg": "#2196f3",
+            "color": "#fff"
+        },
+        "Dark": {
+            "bg": "#000000",
+            "color": "#fff"
+        },
+        "Light": {
+            "bg": "#FFFFFF",
+            "color": "#000"
+        },
+        "Red": {
+            "bg": "#FF0000",
+            "color": "#000"
+        },
+        "Blue": {
+            "bg": "#2196f3",
+            "color": "#fff"
+        },
+        "Green": {
+            "bg": "#00FF00",
+            "color": "#000"
+        },
+        "Yellow": {
+            "bg": "#FFFF00",
+            "color": "#000"
+        },
+        "Purple": {
+            "bg": "#800080",
+            "color": "#fff"
+        },
+        "Orange": {
+            "bg": "#FFA500",
+            "color": "#000"
+        },
+        "Pink": {
+            "bg": "#FFC0CB",
+            "color": "#000"
+        },
+        "Teal": {
+            "bg": "#008080",
+            "color": "#fff"
+        },
+        "Cyan": {
+            "bg": "#00FFFF",
+            "color": "#000"
+        },
+        "Magenta": {
+            "bg": "#FF00FF",
+            "color": "#fff"
+        },
+        "Lavender": {
+            "bg": "#E6E6FA",
+            "color": "#000"
+        },
+        "Turquoise": {
+            "bg": "#40E0D0",
+            "color": "#fff"
+        },
+        "Silver": {
+            "bg": "#C0C0C0",
+            "color": "#000"
+        },
+        "Gold": {
+            "bg": "#FFD700",
+            "color": "#000"
+        },
+        "Brown": {
+            "bg": "#A52A2A",
+            "color": "#fff"
+        },
+        "Maroon": {
+            "bg": "#800000",
+            "color": "#fff"
+        },
+        "Navy": {
+            "bg": "#000080",
+            "color": "#fff"
+        }
+    },
+    "SelectedBackground": "Default"
+}
