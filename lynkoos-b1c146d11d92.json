@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lynkoos",
+  "private_key_id": "b1c146d11d92bc12710e59dc3e3a1a925deeb580",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCV7iKa+IxX2ZQx\nNWBWx/pAPMZ4+aM2peCqHxt/zzE+XenRh/qyXaFmO/pdTy9fLZCbWNACHHi9soze\n1fniT311W4tFrgHPuOZQCde/2m0PLBT/RS96QZW/uo4QFOm8hKJlHH3QL3cZC8Wy\nd8x8yx7WknxR4BiGP9ruL/0824+Ou40S7UVUSj3Vy7zZd/ccwYcwuQFB2Ya5ohi9\nW6xJSnv+MQskSKnr7AdclFFmaMwVfxkLPxYeZ1VOeS+ifiLsC5xuBDv/k1hygeqV\nkGSJtDYPbQQjqt9GW4PsDt9Fc0HPD5a7g+UNoAim+Q3n4lePjrmkDRw4FZBS1E8a\nkL2sjMuLAgMBAAECggEAGYCZk0meuZyxV9Nv8SLv3rhXvCEeUX/SoK1M5KcOBcE8\nsd7S1j8V4olmMzPyZ1qdQ8dODmXgZcf2rTqxV/zUZr9tB6uq9DXLuyaJc8FIFrIV\nWjxe8IkyWxv06Shdf6sB4nf/sIc6V2DIvmwhNMLqGm5tRhH7qe43o5c3GIByQUFD\n7IGDvQwtxwicSWk+ojMM2dw0PlpXUCWm3mJUJoMjO3npEZfHNGr5W6wJbWa+PBAt\nS9I8Euid2eai9TvfU891leZ69ffI0IO5YI9hfubXcysXms3aYIS1AdDN7nP8yihs\n280xDHOF4HuM9UzI5MysMwAU7gdalSu1B0cZXbuEZQKBgQDNCt4XruDqe43CebIh\n8xpyl8Jlplak4QA674MJvBLVQAhXo+tOYpRhXMlKsjwd85gH8N+4Oe0GVkIYcD/y\naxYPuYxIz7gjAUfY1OjvMtMJOu543r0lnMyMWQkj3kW5/Oqh/RVKg7lTvua8BV4v\nC7Bt2gWbe9mDD5sCtlsufXBSpQKBgQC7MPAiwmgIN+OsUPikKDmAt8IBLe7NKqzA\nWdXGajCA8K2hv+OItCf3memFadhWwX+aKCx0y+yNZiLuRqaql4P32bRWzEOK9NBv\nDU3/a5Aoo4VbuRjTdGp/mB/5obeLGfwZ7h4GDnmsfWPqRWiVp0FscO5S1m5OxONK\narSQEnE+bwKBgQCEntPZs6YMZA/jyrzZ0pi3p8r33mfKSzHP7NzvrfLsdXcv4Hkx\nAPgCJXaY1sGlico60KSTTvwtDhvAHNJvpK3nS9cdvSTXl1t2NvfWxyPSo4hdK4xh\nyJJQ8MHFrl2hF6JXVg+wW5TCQwaQdFRfz4q08sCPucKNT8muLm65mi7NdQKBgBFw\nu87hQgQSAPpbCO9yd/kQJdkqSGeBJFs/g3VbC23X/rVlRXPFJTwicOlnNSrQGG1q\ndMnk/gMmkvaUSo72UutSs0Sq/1gA+zJ9kNjNUr8WjSRAmJmK7Sk6KTB+6rThFOXt\nk4qI6rkxbY+0K8xVqvjJhMrfA6P/IBYc3vnVXgutAoGAT2WB3vPwok5LGtlHmGtH\n+sdfjudLI2L3tQpQZlGXKsAlFg4chA6MkcjsAe6/oNFhYbGJvelmVppsKgJ/++sP\nUZlfPnNHFuNiCcs5u60aUCL4leoMcs6TigU3fRKiX03lHofu6NWU0nZUZSIgtyWi\nKq81tAlxW//yZBVO5/G2aac=\n-----END PRIVATE KEY-----\n",
+  "client_email": "lynkoos-service@lynkoos.iam.gserviceaccount.com",
+  "client_id": "100576774255413620469",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lynkoos-service%40lynkoos.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

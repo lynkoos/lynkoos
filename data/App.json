@@ -1,0 +1,126 @@
+{
+    "id": 1,
+    "nombre": {
+        "primer_nombre": "Owell",
+        "segundo_nombre": "Andry",
+        "primer_apellido": "Polanco",
+        "segundo_apellido": "Silva"
+    },
+    "avatar": "https://via.placeholder.com/500",
+    "edad": 19,
+    "anio_nacimiento": 2004,
+    "genero": "Masculino",
+    "estado_civil": "Casado",
+    "direccion": "Calle 123",
+    "ciudad": "Santander",
+    "provincia": "Piedecuesta",
+    "eventos": [
+        {
+            "id": 1,
+            "titulo": "Evento 1",
+            "descripcion": "Descripción del evento 1",
+            "fecha": "10 de febrero de 2024"
+        },
+        {
+            "id": 2,
+            "titulo": "Evento 2",
+            "descripcion": "Descripción del evento 2",
+            "fecha": "15 de febrero de 2024"
+        }
+    ],
+    "notificaciones": [
+        {
+            "id": 1,
+            "usuario": "Usuario 1",
+            "mensaje": "te ha seguido",
+            "hora": "10:00 AM"
+        },
+        {
+            "id": 2,
+            "usuario": "Usuario 2",
+            "mensaje": "ha compartido tu publicación",
+            "hora": "11:30 AM"
+        },
+        {
+            "id": 3,
+            "usuario": "Usuario 3",
+            "mensaje": "ha reaccionado a tu publicación",
+            "hora": "1:45 PM"
+        }
+    ],
+    "publicaciones": [
+        {
+            "id": 1,
+            "titulo": "publicacion 1",
+            "descripcion": "loren...",
+            "contenido": "https://via.placeholder.com/500",
+            "hora": "11:30 AM",
+            "fecha": "2024-02-11",
+            "reacciones": [
+                "😍",
+                "🙌",
+                "💖"
+            ],
+            "Comentarios": [
+                {
+                    "id": 1,
+                    "usuario": "Usuario 1",
+                    "mensaje": "loren..."
+                },
+                {
+                    "id": 2,
+                    "usuario": "Usuario 2",
+                    "mensaje": "loren..."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "titulo": "publicacion 2",
+            "descripcion": "loren...",
+            "contenido": "https://via.placeholder.com/500",
+            "hora": "11:30 AM",
+            "fecha": "2024-02-11",
+            "reacciones": [
+                "😍",
+                "🙌",
+                "💖"
+            ],
+            "Cpmentarios": [
+                {
+                    "id": 1,
+                    "usuario": "Usuario 1",
+                    "mensaje": "loren..."
+                },
+                {
+                    "id": 2,
+                    "usuario": "Usuario 2",
+                    "mensaje": "loren..."
+                }
+            ]
+        }
+    ],
+    "historias": [
+        {
+            "id": 1,
+            "usuario": "Usuario 1",
+            "imagen": "https://via.placeholder.com/500"
+        },
+        {
+            "id": 2,
+            "usuario": "Usuario 2",
+            "imagen": "https://via.placeholder.com/500"
+        }
+    ],
+    "sistema": {
+        "id": 1,
+        "nombre_dispositivo": "DISPOSITIVO-MOVILE",
+        "version": "1.0.0",
+        "fecha": "2024-02-11",
+        "hora": "10:13 PM",
+        "android": true,
+        "version_android": 14,
+        "fuente": "large",
+        "tema": "Dark"
+    }
+}
