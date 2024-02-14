@@ -1,0 +1,66 @@
+/* src/acount/Style.css */
+.index-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.index-container h2 {
+  font-size: 32px;
+  color: #333;
+}
+
+.index-container p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.index-container button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.index-container button:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
+}
+
+.index-container .logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+/* Animación */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .index-container h2 {
+    font-size: 24px;
+  }
+  .index-container p {
+    font-size: 16px;
+  }
+  .index-container .logo {
+    width: 120px;
+  }
+}
