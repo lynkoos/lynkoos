@@ -73,7 +73,7 @@ button:hover {
     width: 512px;
     height: 512px;
     border-radius: 25px;
-    box-shadow: 7px 5px 20px 10px gray;
+    box-shadow: inset 7px 5px 20px 0px gray;
     cursor: no-drop;
 }
 
