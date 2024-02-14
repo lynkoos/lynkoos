@@ -13,6 +13,8 @@ import RegisterScreen from './acount/Register/Index';
 import Navbar from './src/Nav/Index';
 import Conection from './src/Alerts/Conection';
 
+
+
 const Stack = createStackNavigator();
 
 export default function App() {
