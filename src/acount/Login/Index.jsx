@@ -1,12 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Style.css';
 import QRCode from 'qrcode.react';
 import logo from '../../assets/LogoRed.png';
-// import LogoBlue from '../../assets/LogoBlue.png';
 
 function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [qrValue, setQrValue] = useState('');
+
+    useEffect(() => {
+        // Generar el código QR automáticamente cada 5 segundos
+        const intervalId = setInterval(() => {
+            setQrValue(Math.random().toString(36).substring(2, 150));
+        }, 5000);
+
+        // Limpiar el intervalo al desmontar el componente
+        return () => clearInterval(intervalId);
+    }, []);
 
     const handleEmailChange = (e) => {
         setEmail(e.target.value);
@@ -59,7 +69,7 @@ function Login() {
             <div className='cont-qr'>
                 <div className="qr-container">
                     <QRCode
-                        value={Math.random().toString(36).substring(2, 150)}
+                        value={qrValue}
                         bgColor='#0000'
                         fgColor='#f36767'
                         size={512}

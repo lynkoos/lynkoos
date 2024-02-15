@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .conversation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .users-container {
+    flex: 1;
+  }
+  
+  .user {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .chat-container {
+    flex: 3;
+    margin-left: 20px;
+  }
+  
+  .chat {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    margin-bottom: 5px;
+  }
+  
+  .icons-container {
+    text-align: right;
+  }
+  
+  .icons-container img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  
