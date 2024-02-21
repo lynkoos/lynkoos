@@ -28,7 +28,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/user" element={<User />} />
         <Route path="/" element={<Index />} />
-        <Route path="/l/:nombreUsuario" element={<O />} />
+        <Route path="/o/:nombreUsuario" element={<O />} />
       </Routes>
     </Router>
   );

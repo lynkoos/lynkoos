@@ -8,7 +8,7 @@ const Home = () => {
     follower: 3591,
     edad: 20,
   };
-  const endpointUsuario = `/l/${usuarioRandom.nombre.toLowerCase()}${usuarioRandom.apellido.toLowerCase()}`;
+  const endpointUsuario = `/o/${usuarioRandom.nombre.toLowerCase()}${usuarioRandom.apellido.toLowerCase()}`;
   return (
     <div>
       <div className='display'>
