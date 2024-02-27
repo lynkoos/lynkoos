@@ -1,8 +1,10 @@
 // User.js
 import React, { useState } from 'react';
-import { View, Text, Image, TouchableOpacity, Clipboard, Alert, Modal, ScrollView } from 'react-native';
+import { View, Text, Image, TouchableOpacity, Clipboard, Alert, Modal, ScrollView, Dimensions } from 'react-native';
 import styles from './Style';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import verifiedIcon from '../img/verified.png';
+import upgradeIcon from '../img/upgrade.png';
 
 const User = () => {
     const [verifiedBannerVisible, setVerifiedBannerVisible] = useState(false);
@@ -43,7 +45,7 @@ const User = () => {
                 <View style={styles.profileImage}>
                     <Image source={userProfileImage || defaultProfileImage} style={styles.ImagenUser} />
                     <TouchableOpacity onPress={handleVerifiedPress} style={styles.verifiedIcon}>
-                        <Image source={{ uri: 'https://img.icons8.com/?size=256&id=2xnEesCdQvBQ&format=png' }} style={{ width: 30, height: 30 }} />
+                        <Image source={verifiedIcon} style={{ width: 30, height: 30 }} />
                     </TouchableOpacity>
                 </View>
                 <View style={styles.usernameContainer}>
@@ -54,7 +56,7 @@ const User = () => {
                         <Text style={styles.Nickusername}>@owellandry</Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={handleModalOpen} style={styles.extraBadge}>
-                        <Image source={{ uri: 'https://img.icons8.com/?size=256&id=6xAxa01b934f&format=png' }} style={{ width: 24, height: 24 }} />
+                        <Image source={upgradeIcon} style={{ width: 22, height: 22 }} />
                     </TouchableOpacity>
                 </View>
             </View>
@@ -83,10 +85,10 @@ const User = () => {
                     <Icon name="facebook" size={30} color="#3b5998" />
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.socialIcon}>
-                    <Icon name="discord" size={30} color="#1da1f2" />
+                    <Icon name="email" size={30} color="#1da1f2" />
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.socialIcon}>
-                    <Icon name="telegram" size={30} color="#c13584" />
+                    <Icon name="facebook" size={30} color="#c13584" />
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.socialIcon}>
                     <Icon name="email" size={30} color="#c13584" />

@@ -1,0 +1,207 @@
+{
+    "usuario": {
+        "id": 1,
+        "nombre": "Owell Andry",
+        "apellido": "Polanco Silva",
+        "nombre_usuario": "owellandry",
+        "descripcion": "Soy Owell, un desarrollador senior, apasionado por el mundo de la tecnología y los desafíos que esta ofrece. Siempre he sido un soñador y estoy comprometido en lograr cada uno de mis objetivos profesionales. Actualmente, soy el dueño de BreakLineStudio, una empresa dedicada al desarrollo web y de software. Como desarrollador, cuento con habilidades que me permiten construir soluciones digitales eficientes y de alta calidad. Me considero un profesional en constante crecimiento y estoy trabajando para convertirme en un desarrollador full stack.",
+        "genero": "masculino",
+        "avatar": "../img/LogoDefault.png",
+        "banerUser": "../img/BannerDefault.png",
+        "token": "#?ndN10eDGRXcp/N5A9C4Q>N>gJ6x&d$",
+        "insignias": [
+            {
+                "id": 1,
+                "nombre": "VERIFIED",
+                "descripcion": "Esta cuenta está verificada",
+                "verified": true,
+                "img": "../img/verified.png"
+            },
+            {
+                "id": 2,
+                "nombre": "TEAM",
+                "descripcion": "Miembro del equipo",
+                "team": true,
+                "img": "../img/team.png"
+            },
+            {
+                "id": 3,
+                "nombre": "MODERATOR",
+                "descripcion": "Moderador de la comunidad",
+                "moderador": true,
+                "img": "../img/moderator.png"
+            },
+            {
+                "id": 4,
+                "nombre": "ADMIN",
+                "descripcion": "Administrador de la comunidad",
+                "admin": true,
+                "img": "../img/admin.png"
+            },
+            {
+                "id": 5,
+                "nombre": "DEBUGGER",
+                "descripcion": "Debugger",
+                "debugger": true,
+                "img": "../img/debugger.png"
+            },
+            {
+                "id": 6,
+                "nombre": "OWNER",
+                "descripcion": "Dueño de la cuenta",
+                "owner": true,
+                "img": "../img/admin.png"
+            },
+            {
+                "id": 7,
+                "nombre": "PARTNER",
+                "descripcion": "Partner",
+                "partner": true,
+                "img": "../img/team.png"
+            },
+            {
+                "id": 8,
+                "nombre": "CONTRIBUTOR",
+                "descripcion": "Contribuidor",
+                "contribuidor": true,
+                "img": "../img/contributor.png"
+            },
+            {
+                "id": 9,
+                "nombre": "BETA_TESTER",
+                "descripcion": "Beta Tester",
+                "betaTester": true,
+                "img": "../img/betatester.png"
+            },
+            {
+                "id": 10,
+                "nombre": "COMMUNITY_LEADER",
+                "descripcion": "Líder de la Comunidad",
+                "communityLeader": true,
+                "img": "../img/community_leader.png"
+            },
+            {
+                "id": 11,
+                "nombre": "SPONSOR",
+                "descripcion": "Patrocinador",
+                "sponsor": true,
+                "img": "../img/sponsor.png"
+            },
+            {
+                "id": 12,
+                "nombre": "EXPERT",
+                "descripcion": "Experto",
+                "expert": true,
+                "img": "../img/expert.png"
+            },
+            {
+                "id": 13,
+                "nombre": "OUTSTANDING_COLLABORATOR",
+                "descripcion": "Colaborador Destacado",
+                "outstandingCollaborator": true,
+                "img": "../img/outstanding_collaborator.png"
+            },
+            {
+                "id": 14,
+                "nombre": "INNOVATOR",
+                "descripcion": "Innovador",
+                "innovator": true,
+                "img": "../img/innovator.png"
+            },
+            {
+                "id": 15,
+                "nombre": "CONNECTOR",
+                "descripcion": "Conector",
+                "connector": true,
+                "img": "../img/connector.png"
+            },
+            {
+                "id": 16,
+                "nombre": "SUPPORT_SPECIALIST",
+                "descripcion": "Especialista en Soporte",
+                "supportSpecialist": true,
+                "img": "../img/support_specialist.png"
+            },
+            {
+                "id": 17,
+                "nombre": "BRAND_AMBASSADOR",
+                "descripcion": "Embajador de Marca",
+                "brandAmbassador": true,
+                "img": "../img/brand_ambassador.png"
+            },
+            {
+                "id": 18,
+                "nombre": "BOT",
+                "descripcion": "Bot",
+                "bot": true,
+                "img": "../img/bot.png"
+            },
+            {
+                "id": 19,
+                "nombre": "NEW_USER",
+                "descripcion": "Nuevo Usuario",
+                "newUser": true,
+                "img": "../img/new_user.png"
+            },
+            {
+                "id": 20,
+                "nombre": "",
+                "descripcion": "",
+                "newUser": true,
+                "img": ""
+            }
+        ]
+    },
+    "icons": [
+        {
+            "id": 1,
+            "nombre": "Facebook",
+            "url": "../icons/Facebook"
+        },
+        {
+            "id": 2,
+            "nombre": "Discord",
+            "url": "../icons/Discord"
+        },
+        {
+            "id": 3,
+            "nombre": "Twitter",
+            "url": "../icons/Twitter"
+        },
+        {
+            "id": 4,
+            "nombre": "Instagram",
+            "url": "../icons/Instagram"
+        },
+        {
+            "id": 5,
+            "nombre": "YouTube",
+            "url": "../icons/YouTube"
+        },
+        {
+            "id": 6,
+            "nombre": "LinkedIn",
+            "url": "../icons/LinkedIn"
+        },
+        {
+            "id": 7,
+            "nombre": "Github",
+            "url": "../icons/Github"
+        },
+        {
+            "id": 8,
+            "nombre": "Telegram",
+            "url": "../icons/Telegram"
+        },
+        {
+            "id": 9,
+            "nombre": "WhatsApp",
+            "url": "../icons/WhatsApp"
+        },
+        {
+            "id": 10,
+            "nombre": "Email",
+            "url": "../icons/Email"
+        }
+    ]
+}

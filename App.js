@@ -32,10 +32,10 @@ export default function App() {
           {loggedIn ? (
             <>
               <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
-              <Stack.Screen name="Profile" component={ProfileScreen} />
-              <Stack.Screen name="Notifications" component={NotifyScreen} />
-              <Stack.Screen name="Settings" component={SettngScreen} />
-              <Stack.Screen name="About" component={AboutScreen} />
+              <Stack.Screen name="Profile" component={ProfileScreen} options={{ headerShown: false }} />
+              <Stack.Screen name="Notifications" component={NotifyScreen} options={{ headerShown: false }} />
+              <Stack.Screen name="Settings" component={SettngScreen} options={{ headerShown: false }} />
+              <Stack.Screen name="About" component={AboutScreen} options={{ headerShown: false }} />
               <Stack.Screen name="Register" component={RegisterScreen} options={{ headerShown: false }} />
               <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false }} />
             </>

@@ -107,9 +107,9 @@ const styles = StyleSheet.create({
     },
     extraBadge: {
         position: 'absolute',
-        right: '-55%',
-        bottom: '-5%',
-        padding: 2,
+        right: 0,
+        bottom: 0,
+        // padding: 2,
     },
     socialIconsContainer: {
         flexDirection: 'row',
