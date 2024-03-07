@@ -1,10 +1,10 @@
-// User.js
 import React, { useState } from 'react';
 import { View, Text, Image, TouchableOpacity, Clipboard, Alert, Modal, ScrollView, Dimensions } from 'react-native';
-import styles from './Style';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import verifiedIcon from '../img/verified.png';
 import upgradeIcon from '../img/upgrade.png';
+import NavBar from '../Nav/Index';
+import styles from './Style';
 
 const User = () => {
     const [verifiedBannerVisible, setVerifiedBannerVisible] = useState(false);
@@ -37,7 +37,8 @@ const User = () => {
     };
 
     return (
-        <ScrollView contentContainerStyle={styles.container}>
+    <View style={{ flex: 1 }}>
+        <View style={styles.container}>
             <View style={styles.bannerUser}>
                 <Image source={userBanner || defaultBanner} style={{ width: '100%', height: '100%' }} />
             </View>
@@ -95,13 +96,16 @@ const User = () => {
                 </TouchableOpacity>
             </View>
             <View style={styles.DescriptionUser}>
+                {/* Aquí puedes reemplazar el texto con los iconos según tus necesidades */}
                 <Text style={styles.userDescription}>
-                    Soy Owell, un desarrollador senior, apasionado por el mundo de la tecnología y los desafíos que esta ofrece. Siempre he sido un soñador y estoy comprometido en lograr cada uno de mis objetivos profesionales.
 
-                    Actualmente, soy el dueño de BreakLineStudio, una empresa dedicada al desarrollo web y de software. Como desarrollador, cuento con habilidades que me permiten construir soluciones digitales eficientes y de alta calidad. Me considero un profesional en constante crecimiento y estoy trabajando para convertirme en un desarrollador full stack.
+                    <Icon name="work" size={20} color="#009688" /> Soy Owell, un desarrollador senior, apasionado por el mundo de la tecnología y los desafíos que esta ofrece. Siempre he sido un soñador y estoy comprometido en lograr cada uno de mis objetivos profesionales.
+                    <Icon name="work" size={20} color="#009688" /> Actualmente, soy el dueño de BreakLineStudio, una empresa dedicada al desarrollo web y de software. Como desarrollador, cuento con habilidades que me permiten construir soluciones digitales eficientes y de alta calidad. Me considero un profesional en constante crecimiento y estoy trabajando para convertirme en un desarrollador full stack.
                 </Text>
             </View>
-        </ScrollView>
+        </View>
+        <NavBar />
+    </View>
     );
 };
 

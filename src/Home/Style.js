@@ -1,4 +1,3 @@
-// src/Home/Style.js
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -105,6 +104,37 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 5,
     color: '#333',
+  },
+  newPostButtonContainer: {
+    position: 'absolute',
+    bottom: 20,
+    right: 20,
+    zIndex: 10,
+  },  
+  newPostButton: {
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    borderRadius: 20,
+    backgroundColor: '#009688',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  newPostButtonText: {
+    fontSize: 16,
+    color: '#fff',
+    marginLeft: 10,
+  },
+  newPostButtonPressed: {
+    opacity: 0.8,
   },
 });
 

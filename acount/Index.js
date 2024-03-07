@@ -81,7 +81,7 @@ const AcountScreen = () => {
                             <View style={styles.textContainer}>
                                 <Text style={styles.text}>Comparte</Text>
                                 <Text style={styles.description}>
-                                    La idea de Lynkoos es que puedas compartir información relevante sobre ti y tus intereses, para que asi mas personas se fijen en ti. ¡Destaca y hazte notar!
+                                    La idea de Lynkoos es que puedas compartir información relevante sobre ti y tus intereses, para que así más personas se fijen en ti. ¡Destaca y hazte notar!
                                 </Text>
                             </View>
                         </View>

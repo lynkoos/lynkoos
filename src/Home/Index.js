@@ -1,17 +1,13 @@
-// src/Home/Index.js
-import React from 'react';
-import { View, Text, FlatList, Image } from 'react-native';
+import React, { useRef } from 'react';
+import { View, Text, FlatList, Image, TouchableOpacity } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/Ionicons';
+import NavBar from '../Nav/Index';
 import styles from './Style';
 
 const HomeScreen = () => {
-  const stories = [
-    { id: 1, user: 'Usuario 1', image: 'https://via.placeholder.com/150' },
-    { id: 2, user: 'Usuario 2', image: 'https://via.placeholder.com/150' },
-    { id: 3, user: 'Usuario 3', image: 'https://via.placeholder.com/150' },
-    { id: 4, user: 'Usuario 4', image: 'https://via.placeholder.com/150' },
-    { id: 5, user: 'Usuario 5', image: 'https://via.placeholder.com/150' },
-    { id: 6, user: 'Usuario 6', image: 'https://via.placeholder.com/150' },
-  ];
+  const navigation = useNavigation();
+  const buttonRef = useRef(null);
 
   const posts = [
     { id: 1, title: 'Publicación 1', content: 'Contenido de la publicación 1', time: '10:00 AM', date: '2024-02-09', reactions: ['😊', '👍', '❤️'] },
@@ -24,13 +20,6 @@ const HomeScreen = () => {
     { id: 2, title: 'Evento 2', description: 'Descripción del evento 2', date: '15 de febrero de 2024' },
     { id: 3, title: 'Evento 3', description: 'Descripción del evento 3', date: '20 de febrero de 2024' },
   ];
-
-  const renderStoryItem = ({ item }) => (
-    <View style={styles.storyItem}>
-      <Image source={{ uri: item.image }} style={styles.storyImage} />
-      <Text style={styles.storyUser}>{item.user}</Text>
-    </View>
-  );
 
   const renderPostItem = ({ item }) => (
     <View style={styles.postItem}>
@@ -60,25 +49,56 @@ const HomeScreen = () => {
     </View>
   );
 
+  const handleNewPost = () => {
+    navigation.navigate('New');
+  };
+
+  const handlePressIn = () => {
+    if (buttonRef.current) {
+      buttonRef.current.setNativeProps({ style: styles.newPostButtonPressed });
+    }
+  };
+
+  const handlePressOut = () => {
+    if (buttonRef.current) {
+      buttonRef.current.setNativeProps({ style: styles.newPostButton });
+    }
+  };
+
   return (
-    <View style={styles.container}>
-      <FlatList
-        data={[{ section: 'Historias', data: stories }, { section: 'Publicaciones', data: posts }, { section: 'Eventos', data: events }]}
-        renderItem={({ item }) => (
-          <>
-            <Text style={styles.sectionTitle}>{item.section}</Text>
-            <FlatList
-              data={item.data}
-              renderItem={item.section === 'Historias' ? renderStoryItem : item.section === 'Publicaciones' ? renderPostItem : renderEventItem}
-              keyExtractor={(item) => item.id.toString()}
-              horizontal={item.section === 'Historias'}
-              showsHorizontalScrollIndicator={false}
-              showsVerticalScrollIndicator={false}
-            />
-          </>
-        )}
-        keyExtractor={(item, index) => index.toString()}
-      />
+    <View style={{ flex: 1 }}>
+      <View style={styles.container}>
+        <FlatList
+          data={[{ section: 'Publicaciones', data: posts }, { section: 'Eventos', data: events }]}
+          renderItem={({ item }) => (
+            <>
+              <Text style={styles.sectionTitle}>{item.section}</Text>
+              <FlatList
+                data={item.data}
+                renderItem={item.section === 'Publicaciones' ? renderPostItem : renderEventItem}
+                keyExtractor={(item) => item.id.toString()}
+                showsHorizontalScrollIndicator={false}
+                showsVerticalScrollIndicator={false}
+              />
+            </>
+          )}
+          keyExtractor={(item, index) => index.toString()}
+        />
+
+        <View style={styles.newPostButtonContainer}>
+          <TouchableOpacity
+            ref={buttonRef}
+            style={styles.newPostButton}
+            onPress={handleNewPost}
+            onPressIn={handlePressIn}
+            onPressOut={handlePressOut}
+          >
+            <Icon name="add-circle-outline" size={24} color="black" />
+            <Text style={styles.newPostButtonText}>Crear nueva publicación</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+      <NavBar />
     </View>
   );
 };

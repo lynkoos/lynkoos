@@ -1,0 +1,152 @@
+{
+    "id": "cc082f6f-a7be-451e-ae7a-a12494560ff3",
+    "nombre": "owell andry",
+    "apellido": "polanco silva",
+    "nombreUsuario": "owellandry",
+    "genero": "Masculino",
+    "fechaNacimiento": "2004-03-04",
+    "contraseña_hash": "hashed_password_here",
+    "avatar": "imagen.png",
+    "banner": "banner.png",
+    "estado": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNjMDgyZjZmLWE3YmUtNDUxZS1hZTdhLWExMjQ5NDU2MGZmMyIsIm5hbWUiOiJvd2VsbCBhbmRyeSIsImVtYWlsIjoib3dlbGxhbmRyeUBleGFtcGxlLmNvbSIsInVzZXJuYW1lIjoib3dlbGxhbmRyeSIsImV4cCI6MTYzOTk4MTI2M30.z4mZ-TTukZa6hUM3LaRRYQDpHS3aLxHgwOQ7dutI2Ug",
+    "qr": {
+        "id": "cc082f6f-a7be-482l-ae7a-a124945602ls",
+        "url_img": "https://via.placeholder.com/500"
+    },
+    "posts": [
+        {
+            "id": "cc082f6f-a7be-451e-ae7a-a12494560436",
+            "usuario": {
+                "avatar": "imagen.png",
+                "nombre": "owell andry",
+                "nombreUsuario": "owellandry"
+            },
+            "titulo": "publicacion 1",
+            "descripcion": "loren...",
+            "url_img": "https://via.placeholder.com/500",
+            "hora": "10:00 AM",
+            "fecha": "2024-02-09",
+            "reacciones": [
+                {
+                    "id": "cc082f6f-a7be-451e-ae7a-a12494560f00",
+                    "url_img": "me_gusta.png",
+                    "cantidad": 204
+                },
+                {
+                    "id": "cc082f6f-a7be-451e-ae7a-a12494560f66",
+                    "url_img": "no_gusta.png",
+                    "cantidad": 400
+                },
+                {
+                    "id": "cc082f6f-a7be-451e-ae7a-a12494560f44",
+                    "url_img": "me_alegra.png",
+                    "cantidad": 200
+                }
+            ],
+            "comentarios": [
+                {
+                    "id": "cc082f6f-a7be-451e-ae7a-a12494560ms0",
+                    "usuario": {
+                        "avatar": "imagen.png",
+                        "nombre": "owell andry",
+                        "nombreUsuario": "owellandry"
+                    },
+                    "mensaje": "loren...",
+                    "hora": "10:00 AM",
+                    "fecha": "2024-02-09",
+                    "reacciones": [
+                        {
+                            "id": "cc082f6f-a7be-451e-ae7a-a12494560f00",
+                            "url_img": "me_gusta.png",
+                            "cantidad": 204
+                        },
+                        {
+                            "id": "cc082f6f-a7be-451e-ae7a-a12494560f66",
+                            "url_img": "no_gusta.png",
+                            "cantidad": 400
+                        },
+                        {
+                            "id": "cc082f6f-a7be-451e-ae7a-a12494560f44",
+                            "url_img": "me_alegra.png",
+                            "cantidad": 200
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "historias": [
+        {
+            "id": "cc082f6f-a7be-451e-ae7a-a12494560f7s",
+            "usuario": {
+                "nombre": "owell andry",
+                "nombreUsuario": "owellandry"
+            },
+            "descripcion": "loren...",
+            "hora": "10:00 AM",
+            "fecha": "2024-02-09",
+            "url_img": "https://via.placeholder.com/500",
+            "reacciones": [
+                {
+                    "id": "cc082f6f-a7be-451e-ae7a-a124msl60f00",
+                    "url_img": "me_gusta.png",
+                    "cantidad": 204
+                },
+                {
+                    "id": "cc082f6f-a7be-451e-ae7a-a1so14560f66",
+                    "url_img": "no_gusta.png",
+                    "cantidad": 400
+                },
+                {
+                    "id": "cc08maof-a7be-451e-ae7a-a12494560f44",
+                    "url_img": "me_alegra.png",
+                    "cantidad": 200
+                }
+            ]
+        }
+    ],
+    "insignias": [
+        {
+            "id": "cc082f6f-a7be-451e-ae7a-a124945602ls",
+            "nombre": "Developers",
+            "descripcion": "Insignia para programadores",
+            "url_img": "develospers.png"
+        },
+        {
+            "id": "cc082f6f-a7be-451e-ahso-a124945602ls",
+            "nombre": "Testers",
+            "descripcion": "Insignia para Testers",
+            "url_img": "Testers.png"
+        }
+    ],
+    "logs": [
+        {
+            "id": "cc082f6f-a7be-451e-ae7a-a12494560781",
+            "titulo": "Publicación realizada",
+            "descripcion": "El usuario ${user.nombreUsuario} ha realizado una publicación.",
+            "accion": "publicacion",
+            "id_publicacion": "cc082f6f-a7be-451e-ae7a-a12494560436",
+            "hora": "10:00 AM",
+            "fecha": "2024-02-09"
+        },
+        {
+            "id": "cc082f6f-a7be-451e-ae7a-a12494560782",
+            "titulo": "Reacción realizada",
+            "descripcion": "El usuario ${user.nombreUsuario} ha reaccionado a la publicación de ${user.nombreUsuario}.",
+            "accion": "reaccion",
+            "id_publicacion": "cc082f6f-a7be-451e-ae7a-a12494560436",
+            "hora": "10:00 AM",
+            "fecha": "2024-02-09"
+        },
+        {
+            "id": "cc082f6f-a7be-451e-ae7a-a12494560783",
+            "titulo": "Publicación eliminada",
+            "descripcion": "El usuario ${user.nombreUsuario} ha eliminado una publicación.",
+            "accion": "eliminacion",
+            "id_publicacion": "cc082f6f-a7be-451e-ae7a-a12494560436",
+            "hora": "10:00 AM",
+            "fecha": "2024-02-09"
+        }
+    ]
+}

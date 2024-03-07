@@ -1,13 +1,15 @@
 {
     "usuario": {
         "id": 1,
-        "nombre": "Owell Andry",
-        "apellido": "Polanco Silva",
+        "nombre": "Owell",
+        "apellido": "Polanco",
         "nombre_usuario": "owellandry",
         "descripcion": "Soy Owell, un desarrollador senior, apasionado por el mundo de la tecnología y los desafíos que esta ofrece. Siempre he sido un soñador y estoy comprometido en lograr cada uno de mis objetivos profesionales. Actualmente, soy el dueño de BreakLineStudio, una empresa dedicada al desarrollo web y de software. Como desarrollador, cuento con habilidades que me permiten construir soluciones digitales eficientes y de alta calidad. Me considero un profesional en constante crecimiento y estoy trabajando para convertirme en un desarrollador full stack.",
         "genero": "masculino",
         "avatar": "../img/LogoDefault.png",
-        "banerUser": "../img/BannerDefault.png",
+        "userBanner": "../img/BannerDefault.png",
+        "email": "<EMAIL>",
+        "phone": "+549111111111",
         "token": "#?ndN10eDGRXcp/N5A9C4Q>N>gJ6x&d$",
         "insignias": [
             {

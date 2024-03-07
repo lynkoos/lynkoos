@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
         top: '20%',
         left: '2%',
-        flexDirection: 'row', 
+        flexDirection: 'row',
         alignItems: 'center',
     },
     profileImage: {
