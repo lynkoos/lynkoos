@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { View, Text, FlatList, Image, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import NavBar from '../Nav/Index';
+import { StatusBar } from 'react-native';
 import styles from './Style';
 
 const HomeScreen = () => {
@@ -67,6 +67,7 @@ const HomeScreen = () => {
 
   return (
     <View style={{ flex: 1 }}>
+      <StatusBar hidden={true} />
       <View style={styles.container}>
         <FlatList
           data={[{ section: 'Publicaciones', data: posts }, { section: 'Eventos', data: events }]}
@@ -98,7 +99,6 @@ const HomeScreen = () => {
           </TouchableOpacity>
         </View>
       </View>
-      <NavBar />
     </View>
   );
 };

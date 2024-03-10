@@ -1,41 +1,60 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  containerNewPost: {
+  container: {
     flex: 1,
     backgroundColor: '#fff',
     padding: 20,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
-  inputNewPost: {
-    width: '100%',
-    height: 150,
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: 20,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+  },
+  avatarContainer: {
+    borderWidth: 1,
+    borderColor: 'black',
+    borderRadius: 50,
+    padding: 5,
+  },
+  content: {
+    flex: 1,
+  },
+  input: {
     borderWidth: 1,
     borderColor: '#ccc',
     borderRadius: 10,
-    paddingHorizontal: 10,
+    padding: 10,
     marginBottom: 20,
+    minHeight: 100,
   },
-  imageButtonNewPost: {
-    flexDirection: 'row', // Alinea los elementos horizontalmente
-    alignItems: 'center', // Alinea los elementos verticalmente
-    backgroundColor: '#007bff',
-    paddingVertical: 10,
-    paddingHorizontal: 20,
-    borderRadius: 5,
+  imageButton: {
+    backgroundColor: 'blue',
+    borderRadius: 10,
+    padding: 10,
+    alignItems: 'center',
     marginBottom: 20,
+    flexDirection: 'row',
+    justifyContent: 'center',
   },
-  imageButtonTextNewPost: {
-    color: '#fff',
-    fontSize: 16,
-    textAlign: 'center',
-    marginLeft: 10,
+  imageButtonText: {
+    color: 'white',
+    marginLeft: 5,
   },
-  imagePreviewNewPost: {
-    width: 200,
+  imageContainer: {
+    marginBottom: 20,
+    alignItems: 'center',
+  },
+  imagePreview: {
+    width: '100%',
     height: 200,
-    marginBottom: 20,
+    resizeMode: 'cover',
+    borderRadius: 10,
   },
 });
 

@@ -1,68 +1,80 @@
-import React, { useState } from 'react';
-import { View, Text, TextInput, Button, Image, TouchableOpacity, Platform, Alert } from 'react-native';
-import * as ImagePicker from 'expo-image-picker';
 import { Ionicons } from '@expo/vector-icons';
+import * as ImagePicker from 'expo-image-picker';
+import React, { useCallback, useState } from 'react';
+import { Alert, Button, Image, Platform, StatusBar, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import styles from './Style';
 
 const NewPostScreen = () => {
   const [postContent, setPostContent] = useState('');
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImages, setSelectedImages] = useState([]);
 
-  const askPermission = async () => {
+  const askPermission = useCallback(async () => {
     if (Platform.OS !== 'web') {
       const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
       if (status !== 'granted') {
         Alert.alert('Error', 'Se necesita permiso para acceder a la galería de fotos.');
       }
     }
-  };
+  }, []);
 
-  const pickImage = async () => {
+  const pickImages = useCallback(async () => {
     await askPermission();
     let result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ImagePicker.MediaTypeOptions.Images,
       allowsEditing: true,
       aspect: [4, 3],
       quality: 1,
+      multiple: true,
     });
 
+    console.log('Resultado de la selección de imágenes:', result);
+
     if (!result.cancelled) {
-      setSelectedImage(result.uri);
+      setSelectedImages(prevImages => [...prevImages, ...result.uri]);
+      console.log('Imágenes seleccionadas actualizadas:', selectedImages);
     }
-  };
+  }, [askPermission, selectedImages]);
 
-  const handlePost = () => {
-    if (!postContent.trim()) {
-      Alert.alert('Error', 'Por favor, escribe algo antes de publicar.');
-      return;
-    }
+  const removeImage = useCallback(index => {
+    const newImages = [...selectedImages];
+    newImages.splice(index, 1);
+    setSelectedImages(newImages);
+  }, [selectedImages]);
 
+  const handlePost = useCallback(() => {
     console.log('Contenido de la publicación:', postContent);
-    console.log('Imagen seleccionada:', selectedImage || 'Ninguna');
-  };
+    console.log('Imágenes seleccionadas:', selectedImages);
+  }, [postContent, selectedImages]);
 
   return (
     <>
-      <View style={styles.containerNewPost}>
-        <TextInput
-          style={styles.inputNewPost}
-          onChangeText={text => setPostContent(text)}
-          value={postContent}
-          placeholder="Escribe tu publicación aquí..."
-          multiline={true}
-        />
-        {selectedImage && (
-          <View style={styles.imageContainer}>
-            <Image source={{ uri: selectedImage }} style={styles.imagePreviewNewPost} />
+      <StatusBar hidden={true} />
+      <View style={styles.container}>
+        <Text style={styles.title}>Nueva Publicación</Text>
+        <View style={styles.content}>
+          <TextInput
+            style={styles.input}
+            onChangeText={text => setPostContent(text)}
+            value={postContent}
+            placeholder="Escribe tu publicación aquí..."
+            multiline={true}
+          />
+          <View style={styles.imagePreviewContainer}>
+            {selectedImages.map((image, index) => (
+              <View key={index} style={styles.imageContainer}>
+                <Image source={{ uri: image }} style={styles.imagePreview} />
+                <TouchableOpacity style={styles.removeImageButton} onPress={() => removeImage(index)}>
+                  <Ionicons name="close-circle" size={24} color="red" />
+                </TouchableOpacity>
+              </View>
+            ))}
           </View>
-        )}
-        <TouchableOpacity style={styles.imageButtonNewPost} onPress={pickImage}>
-          <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-            <Ionicons name="camera" size={24} color="white" /> 
-            <Text style={styles.imageButtonTextNewPost}>Seleccionar Imagen</Text>
-          </View>
-        </TouchableOpacity>
-        <Button title="Publicar" onPress={handlePost} />
+          <TouchableOpacity style={styles.imageButton} onPress={pickImages}>
+            <Ionicons name="camera" size={24} color="white" />
+            <Text style={styles.imageButtonText}>Seleccionar Imágenes</Text>
+          </TouchableOpacity>
+          <Button title="Publicar" onPress={handlePost} />
+        </View>
       </View>
     </>
   );

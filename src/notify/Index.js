@@ -1,9 +1,8 @@
-// src/notify/Index.js
-import React from 'react';
+import React, { useCallback } from 'react';
+import { View, Text, FlatList, Image } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { View, Text, FlatList, Image, Animated } from 'react-native';
 import { Swipeable } from 'react-native-gesture-handler';
-import NavBar from '../Nav/Index';
+import { StatusBar } from 'react-native';
 import styles from './Style';
 
 const NotifyScreen = () => {
@@ -16,15 +15,15 @@ const NotifyScreen = () => {
     { id: 6, user: 'Usuario 6', message: 'ha marcado tu publicación como favorita', time: '4:30 PM', read: false },
   ];
 
-  const handleSwipeLeft = (id) => {
+  const handleSwipeLeft = useCallback((id) => {
     console.log('Eliminar notificación con id:', id);
-  };
+  }, []);
 
-  const handleSwipeRight = (id) => {
+  const handleSwipeRight = useCallback((id) => {
     console.log('Marcar notificación como leída con id:', id);
-  };
+  }, []);
 
-  const renderNotificationItem = ({ item }) => (
+  const renderNotificationItem = useCallback(({ item }) => (
     <Swipeable
       renderRightActions={() => (
         <View style={styles.rightAction}>
@@ -50,18 +49,22 @@ const NotifyScreen = () => {
         </View>
       </View>
     </Swipeable>
-  );
+  ), [handleSwipeLeft, handleSwipeRight]);
 
   return (
     <View style={{ flex: 1 }}>
+      <StatusBar hidden={true} />
       <View style={styles.container}>
+      <View>
+          <Text style={styles.title}>Notificaciones</Text>
+        </View>
         <FlatList
           data={notifications}
           renderItem={renderNotificationItem}
           keyExtractor={(item) => item.id.toString()}
+          showsVerticalScrollIndicator={false} 
         />
       </View>
-      <NavBar />
     </View>
   );
 };

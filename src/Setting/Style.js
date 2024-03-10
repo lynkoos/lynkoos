@@ -1,11 +1,10 @@
-// src/Setting/Style.js
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     padding: 20,
+    backgroundColor: '#fff',
   },
   title: {
     fontSize: 24,
@@ -14,41 +13,53 @@ const styles = StyleSheet.create({
   },
   option: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
-    borderBottomWidth: 1,
-    borderBottomColor: '#ccc',
-    paddingVertical: 15,
+    marginBottom: 10,
   },
   optionText: {
+    marginLeft: 10,
     fontSize: 16,
-    color: '#333',
+  },
+  switch: {
+    marginLeft: 'auto',
   },
   toggleOption: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
-    borderBottomWidth: 1,
-    borderBottomColor: '#ccc',
-    paddingVertical: 15,
-    paddingHorizontal: 5,
+    marginBottom: 5,
   },
   toggleOptionText: {
+    marginLeft: 10,
     fontSize: 16,
-    color: '#333',
   },
-  switch: {
-    transform: [{ scaleX: 1.2 }, { scaleY: 1.2 }],
+  devToolsOption: {
+    marginTop: 20,
+    backgroundColor: '#007bff',
+    padding: 10,
+    borderRadius: 5,
   },
-  sliderContainer: {
-    flexDirection: 'row',
+  devToolsText: {
+    color: '#fff',
+    textAlign: 'center',
+    fontSize: 16,
+  },
+  modalContainer: {
+    flex: 1,
+    justifyContent: 'center',
     alignItems: 'center',
-    justifyContent: 'space-between',
-    marginBottom: 15,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
-  sliderValue: {
-    fontSize: 16,
-    color: '#333',
+  modalContent: {
+    backgroundColor: '#fff',
+    padding: 20,
+    borderRadius: 10,
+    width: '80%',
+    maxHeight: '80%',
+  },
+  modalTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 10,
   },
 });
 

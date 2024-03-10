@@ -7,10 +7,12 @@ import ProfileScreen from './src/User/Index';
 import NotifyScreen from './src/notify/Index';
 import SettngScreen from './src/Setting/Index';
 import AboutScreen from './src/About/Index';
+import Navbar from './src/Nav/Index';
+import Conection from './src/Alerts/Conection';
+import NewPost from './src/New/Index';
+import AcountScreen from './acount/Index';
 import LoginScreen from './acount/Login/Index';
 import RegisterScreen from './acount/Register/Index';
-import AcountScreen from './acount/Index';
-import NewPostScreen from './src/New/Index';
 
 const Stack = createStackNavigator();
 
@@ -39,10 +41,13 @@ export default function App() {
               <Stack.Screen name="Notifications" component={NotifyScreen} options={{ headerShown: false }} />
               <Stack.Screen name="Settings" component={SettngScreen} options={{ headerShown: false }} />
               <Stack.Screen name="About" component={AboutScreen} options={{ headerShown: false }} />
-              <Stack.Screen name="New" component={NewPostScreen} options={{ headerShown: false }} />
+              <Stack.Screen name="New" component={NewPost} options={{ headerShown: false }} />
             </>
           )}
         </Stack.Navigator>
+
+        {loggedIn && <Navbar />}
+        <Conection />
       </NavigationContainer>
     </SafeAreaView>
   );

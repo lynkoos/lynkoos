@@ -3,7 +3,7 @@ import { View, Text, Image, TouchableOpacity, Clipboard, Alert, Modal, ScrollVie
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import verifiedIcon from '../img/verified.png';
 import upgradeIcon from '../img/upgrade.png';
-import NavBar from '../Nav/Index';
+import { StatusBar } from 'react-native';
 import styles from './Style';
 
 const User = () => {
@@ -38,6 +38,7 @@ const User = () => {
 
     return (
     <View style={{ flex: 1 }}>
+        <StatusBar hidden={true} />
         <View style={styles.container}>
             <View style={styles.bannerUser}>
                 <Image source={userBanner || defaultBanner} style={{ width: '100%', height: '100%' }} />
@@ -104,7 +105,6 @@ const User = () => {
                 </Text>
             </View>
         </View>
-        <NavBar />
     </View>
     );
 };

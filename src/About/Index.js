@@ -4,7 +4,7 @@ import React, { useRef, useState } from 'react';
 import { View, Text, TouchableOpacity, Image, Share, Modal } from 'react-native';
 import QRCode from 'react-native-qrcode-svg';
 import ViewShot from "react-native-view-shot";
-import Navbar from '../Nav/Index';
+import { StatusBar } from 'expo-status-bar';
 import styles from './Style';
 
 const AboutScreen = () => {
@@ -64,6 +64,7 @@ const AboutScreen = () => {
 
   return (
     <View style={{ flex: 1 }}>
+      <StatusBar hidden={true} />
       <View style={styles.container}>
         <View style={styles.avatarContainer}>
           <TouchableOpacity onPress={handleQRPress} style={styles.qrContainer}>
@@ -98,7 +99,6 @@ const AboutScreen = () => {
           </View>
         </Modal>
       </View>
-      <Navbar />
     </View>
   );
 };

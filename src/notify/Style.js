@@ -57,21 +57,28 @@ const styles = StyleSheet.create({
   readTime: {
     color: '#ccc',
   },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 20,
+  },
   rightAction: {
     backgroundColor: '#43a047',
     justifyContent: 'center',
     alignItems: 'center',
-    paddingVertical: 10,
-    paddingHorizontal: 15,
+    paddingVertical: 5,
+    paddingHorizontal: 20,
     borderRadius: 10,
+    height: '88%',
   },
   leftAction: {
     backgroundColor: '#e53935',
     justifyContent: 'center',
     alignItems: 'center',
-    paddingVertical: 100,
-    paddingHorizontal: 10,
-    borderRadius: 15,
+    paddingVertical: 5,
+    paddingHorizontal: 20,
+    borderRadius: 10,
+    height: '88%',
   },
   actionText: {
     color: '#fff',

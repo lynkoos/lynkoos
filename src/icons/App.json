@@ -1,0 +1,36 @@
+[
+    {
+        "icons":[
+            {
+                "id": 1,
+                "title": "Icon App Black",
+                "url": "./Logo-Black.png"
+            },
+            {
+                "id": 2,
+                "title":"Icon App Blue",
+                "url": "./Logo-Blue.png"
+            },
+            {
+                "id": 3,
+                "title":"Icon App Green",
+                "url": "./Logo-Green.png"
+            },
+            {
+                "id": 4,
+                "title":"Icon App Red",
+                "url": "./Logo-Red.png"
+            },
+            {
+                "id": 5,
+                "title":"Icon App Yellow",
+                "url": "./Logo-Yellow.png"
+            },
+            {
+                "id": 6,
+                "title":"Icon App White",
+                "url": "./Logo-White.png"
+            }
+        ]
+    }
+]
