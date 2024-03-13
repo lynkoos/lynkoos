@@ -165,7 +165,6 @@ const SettingScreen = () => {
             </View>
           </View>
         </Modal>
-
       </View>
     </ScrollView>
   );
