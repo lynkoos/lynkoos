@@ -1,0 +1,11 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/WhatsApp/page": "app/WhatsApp/page.js",
+  "/dowload/page": "app/dowload/page.js",
+  "/instagram/page": "app/instagram/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/linkedin/page": "app/linkedin/page.js",
+  "/page": "app/page.js",
+  "/pages/page": "app/pages/page.js",
+  "/twitter/page": "app/twitter/page.js"
+}
