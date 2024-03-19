@@ -1,0 +1,14 @@
+*{
+  font-family: monospace;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: #BBDEFB;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
