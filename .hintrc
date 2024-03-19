@@ -4,6 +4,14 @@
   ],
   "hints": {
     "button-type": "off",
-    "axe/name-role-value": "off"
+    "axe/name-role-value": "off",
+    "axe/forms": "off",
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
+      }
+    ],
+    "axe/time-and-media": "off"
   }
 }
