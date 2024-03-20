@@ -2,8 +2,8 @@
 
 import Link from "next"
 import "@/app/global/globals.css"
-import Content from "./layouts/content";
-import Span from "./layouts/span/Index";
+// import Content from "./layouts/content";
+// import Span from "./layouts/span/Index";
 import "./css/Home.css"
 import DivComponent from "./layouts/div";
 
