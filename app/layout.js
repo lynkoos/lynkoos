@@ -22,14 +22,14 @@ export default function RootLayout({ children }) {
         <meta property="og:url" content="https://lynkoos.com/" />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content="../public/banner-red.png" />
+        <meta property="og:image" content="https://lynkoos/banner-red.png" />
 
         {/* Metadatos de Twitter Cards */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://lynkoos.com/" />
         <meta name="twitter:title" content={metadata.title} />
         <meta name="twitter:description" content={metadata.description} />
-        <meta name="twitter:image" content="../public/banner-red.png" />
+        <meta name="twitter:image" content="https://lynkoos/banner-red.png" />
       </Head>
       <html lang="es">
         <body>{children}</body>
