@@ -1,0 +1,5 @@
+/* app/css/Home.css */
+
+.container {height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #607D8B; }
+.rectangle {border-radius: 25px; width: 90%; height: 85%; }
+  
