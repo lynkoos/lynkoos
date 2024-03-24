@@ -1,10 +1,9 @@
 {
-  "name": "nextjs-tailwind-app-presentation-page",
+  "name": "lynkoos",
   "version": "1.0.0",
   "private": true,
-  "author": "Creative Tim",
-  "license": "See license in https://www.creative-tim.com/license",
-  "homepage": "https://demos.creative-tim.com/nextjs-tailwind-app-presentation-page",
+  "author": "lynkoos team",
+  "license": "See license in https://www.lynkoos.com/license",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
