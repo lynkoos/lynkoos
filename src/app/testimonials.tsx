@@ -17,8 +17,8 @@ const TESTIMONIALS = [
   {
     feedback:
       "It understood my unique needs and delivered a tailored solution promptly. Their customer support is top-notch, and I appreciate their commitment.",
-    client: "Mary Joshiash",
-    title: "MARKETING @ APPLE INC.",
+    client: "Owell Polanco",
+    title: "CEO @ LYNKOOS.",
     img: "/image/avatar2.jpg",
   },
   {

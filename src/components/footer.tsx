@@ -22,7 +22,7 @@ export function Footer() {
               Lynkoos
             </Typography>
             <Typography color="white" className="mb-12 font-normal">
-              The reward for getting on the stage is fame.
+              La recompensa por subir al escenario es la fama.
             </Typography>
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
@@ -43,7 +43,7 @@ export function Footer() {
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
             <Typography variant="h6" color="white" className="mb-3">
-              Get the app
+              Obtener la aplicación
             </Typography>
             <div className="flex flex-col gap-2">
               <Button

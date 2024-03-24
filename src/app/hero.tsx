@@ -21,7 +21,7 @@ function Hero() {
               compartir te conecta.
             </Typography>
             <Typography className="mb-4" color="white" variant="h6">
-              Get the app
+              Obten la app
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
               <Button
@@ -66,15 +66,15 @@ function Hero() {
       <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md">
         <div>
           <Typography variant="h3" color="blue-gray" className="mb-3">
-            Learning App
+            Lynkoos App
           </Typography>
           <Typography
             variant="paragraph"
-            className="font-normal !text-gray-500 lg:w-5/12"
+            className="font-normal !text-gray-500 lg:w-12/12"
           >
-            Download our app to dive into a vast library of courses, tutorials,
-            and study materials on a wide range of subjects - from programming
-            and language learning to personal development and beyond
+            Descargue nuestra aplicación para sumergirse en una amplia biblioteca de cursos, tutoriales,
+            y materiales de estudio sobre una amplia gama de temas, desde programación
+            y el aprendizaje de idiomas para el desarrollo personal y más allá
           </Typography>
         </div>
       </div>

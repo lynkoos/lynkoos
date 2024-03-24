@@ -44,18 +44,18 @@ export function Features() {
     <section className="py-28 px-4">
       <div className="container mx-auto mb-20 text-center">
         <Typography color="blue-gray" className="mb-2 font-bold uppercase">
-          Your Learning App
+          Tu aplicación de aprendizaje
         </Typography>
         <Typography variant="h1" color="blue-gray" className="mb-4">
-          Diverse Learning Resources
+          Diversos recursos de aprendizaje
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-11/12 lg:px-8 "
         >
-          Access your learning materials on the go. Whether you&apos;re
-          commuting, waiting for a friend, or just have a few minutes to spare,
-          our app fits seamlessly into your busy life.
+          Acceda a sus materiales de aprendizaje mientras viaja. Ya sea que estés
+          desplazarse, esperar a un amigo o simplemente tener unos minutos libres,
+          Nuestra aplicación se adapta perfectamente a tu ajetreada vida.
         </Typography>
       </div>
       <div className="container mx-auto grid max-w-6xl grid-cols-1 gap-4 gap-y-12 md:grid-cols-2">
