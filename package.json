@@ -4,6 +4,7 @@
   "private": true,
   "author": "lynkoos team",
   "license": "See license in https://www.lynkoos.com/license",
+  "homepage": "https://demos.lynkoos.com/nextjs-tailwind-app-presentation-page",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -1,7 +1,5 @@
-"use client";
-
 import React from "react";
-import { Typography, Card } from "@material-tailwind/react";
+import { Card } from "@material-tailwind/react";
 
 const FAQS = [
   {
@@ -35,29 +33,18 @@ export function Faqs() {
     <section className="px-8 py-20">
       <div className="container max-w-6xl mx-auto">
         <div className="text-center">
-          <Typography variant="h1" color="blue-gray" className="mb-4">
-            Frequently asked questions
-          </Typography>
-          <Typography
-            variant="lead"
-            className="mx-auto mb-24 !text-gray-500 lg:w-3/5"
-          >
-            A lot of people don&apos;t appreciate the moment until it&apos;s
-            passed. I&apos;m not trying my hardest, and I&apos;m not trying to
-            do
-          </Typography>
+          <h1 className="text-blue-gray-500 text-4xl font-bold mb-4">Frequently asked questions</h1>
+          <p className="text-blue-gray-500 mx-auto mb-24 text-gray-500 lg:w-3/5">
+            A lot of people don&apos;t appreciate the moment until it&apos;s passed. I&apos;m not trying my hardest, and I&apos;m not trying to do
+          </p>
         </div>
 
         <div className="grid gap-20 md:grid-cols-1 lg:grid-cols-3">
           {FAQS.map(({ title, desc }) => (
-            <Card key={title} shadow={false} color="transparent">
-              <Typography color="blue-gray" className="pb-6" variant="h4">
-                {title}
-              </Typography>
+            <Card key={title} shadow="small" color="transparent">
+              <h4 className="text-blue-gray-500 text-2xl font-semibold pb-6">{title}</h4>
               <div className="pt-2">
-                <Typography className="font-normal !text-gray-500">
-                  {desc}
-                </Typography>
+                <p className="text-blue-gray-500 font-normal text-gray-500">{desc}</p>
               </div>
             </Card>
           ))}
